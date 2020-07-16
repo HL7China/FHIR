@@ -14,77 +14,74 @@ in order to support consistent definitions for schema and UML derived code.
 [%file newnavbar%]
 
 <div class="col-12">
-<table class="colsi"><tr><td id="wg">Work Group <a _target="blank" href="[%wg fhir%]">[%wgt fhir%]</a> </td><td id="ballot"><a href="versions.html#std-process">Standards Status</a>:<!--!ns!--><a href="versions.html#std-process">Informative</a></td></tr></table>
+<table class="colsi"><tr><td id="wg">工作组 <a _target="blank" href="[%wg fhir%]">[%wgt fhir%]</a> </td><td id="ballot"><a href="versions.html#std-process">标准状态</a>:<!--!ns!--><a href="versions.html#std-process">Informative</a></td></tr></table>
 
 <a name="root"></a>
-<h2>Foundation Module</h2>
+<h2>基础组件</h2>
 
 <a name="intro"></a>
 <p>
-The Foundation Module is responsible for the overall infrastructure of the FHIR specification.
-Every implementer works with the content in the foundation module whichever way they use FHIR.
+基础组件用来解决FHIR规范整体基础架构的问题。要实施FHIR,无论你如何使用，都要用到基础组件中的内容。
 </p>
 <a name="index"></a>
 <p>
-The Foundation Module maintains most of the basic <a href="documentation.html">documentation</a> for
-the FHIR specification. In addition, the Foundation Module includes the following resources:
+基础组件覆盖了FHIR规范中大部分基础<a href="documentation.html">文档</a> for
+的内容。 此外，还包括以下资源：
 </p>
 
 <table width="100%" style="table-layout: fixed">
  <tr>
  <td width="33%">
-<p><b>Foundation Framework</b></p>
+<p><b>基础框架</b></p>
 <ul>
-  <li><a href="resource.html">Resource</a></li>
-  <li><a href="domainresource.html">DomainResource</a></li>
-  <li><a href="basic.html">Basic</a></li>
-  <li><a href="binary.html">Binary</a></li>
-  <li><a href="bundle.html">Bundle</a></li>
+  <li><a href="resource.html">Resource</a>资源</li>
+  <li><a href="domainresource.html">DomainResource</a>域资源</li>
+  <li><a href="basic.html">Basic</a>基本(最小集)资源</li>
+  <li><a href="binary.html">Binary</a>二进制资源</li>
+  <li><a href="bundle.html">Bundle</a>组合包资源</li>
 </ul>
 </td><td width="33%" style="border-left: 1px solid #eeeeee">
-<p>Content Management Resources.</p>
+<p>内容管理资源</p>
 <ul>
-  <li><a href="questionnaire.html">Questionnaire</a></li>
-  <li><a href="questionnaireresponse.html">QuestionnaireResponse</a></li>
-  <li><a href="list.html">List</a></li>
-  <li><a href="composition.html">Composition</a></li>
-  <li><a href="documentreference.html">DocumentReference</a></li>
-  <li><a href="documentmanifest.html">DocumentManifest</a></li>
+  <li><a href="questionnaire.html">Questionnaire</a>问卷/问询</li>
+  <li><a href="questionnaireresponse.html">QuestionnaireResponse</a>问卷答案/问询结果</li>
+  <li><a href="list.html">List</a>列表资源</li>
+  <li><a href="composition.html">Composition</a>文档资源</li>
+  <li><a href="documentreference.html">DocumentReference</a>(外部)引用文档</li>
+  <li><a href="documentmanifest.html">DocumentManifest</a>文档集清单</li>
 </ul>
 </td><td width="33%" style="border-left: 1px solid #eeeeee">
-<p>Data Exchange Resources.</p>
+<p>数据交换资源</p>
 <ul>
-  <li><a href="operationoutcome.html">OperationOutcome</a></li>
-  <li><a href="parameters.html">Parameters</a></li>
-  <li><a href="subscription.html">Subscription</a></li>
-  <li><a href="subscriptionstatus.html">SubscriptionStatus</a></li>
-  <li><a href="subscriptiontopic.html">SubscriptionTopic</a></li>
-  <li><a href="messageheader.html">MessageHeader</a></li>
-  <li><a href="messagedefinition.html">MessageDefinition</a></li>
+  <li><a href="operationoutcome.html">OperationOutcome</a>操作反馈信息</li>
+  <li><a href="parameters.html">Parameters</a>操作参数</li>
+  <li><a href="subscription.html">Subscription</a>订阅</li>
+  <li><a href="subscriptionstatus.html">SubscriptionStatus</a>订阅状态</li>
+  <li><a href="subscriptiontopic.html">SubscriptionTopic</a>订阅主题</li>
+  <li><a href="messageheader.html">MessageHeader</a>消息头</li>
+  <li><a href="messagedefinition.html">MessageDefinition</a>消息定义</li>
 </ul>
 </td></tr>
 </table>
 
 
 <a name="secpriv"></a>
-<h3>Relationships with other modules</h3>
+<h3>与其他组件的关系</h3>
 <ul>
- <li>All the other modules depend on the foundation module</li>
- <li>The <a href="exchange-module.html">Exchange module</a> builds on the foundation model by defining the recognized methods for exchange of resources</li>
- <li>The <a href="terminology-module.html">Terminology module</a> provides the formal basis for using Concepts defined in Code Systems in the definitions</li>
- <li>The <a href="conformance-module.html">Conformance module</a> provides the basis for extending the foundation for national and local use</li>
- <li>The <a href="secpriv-module.html"> Security &amp; Privacy</a> provides the linking framework to external standards for security and privacy</li>
- <li>The <a href="implsupport-module.html">Implementation Support module</a> builds on the foundation to provide testing and reference implementations</li>
+ <li>所有组件都依赖于基础组件</li>
+ <li><a href="exchange-module.html">交互组件</a> 是通过在基础组件的基础上定义资源的交互方法来建立的。</li>
+ <li><a href="terminology-module.html">术语组件 </a>使用代码系统中的概念定义来规定基础格式。</li>
+ <li><a href="conformance-module.html">符合性组件</a> 通过对基础组件的扩展配置来实现国家和地区的本地化。</li>
+ <li><a href="secpriv-module.html">安全与隐私组件</a> 向安全和隐私的外部标准提供了链接框架.</li>
+ <li><a href="implsupport-module.html">实施支持组件</a>在基础组件之上提供测试和实施参考</li>
 </ul>
 
 <a name="roadmap"></a>
-<h3>Developmental Roadmap</h3>
+<h3>研发路线图</h3>
 <p>
-Several components of the foundation module have now reached normative status.  
-The focus over the next 18-24 months as the 5th release of FHIR is prepared is to focus on some of the non-normative elements
-and move them towards normative status, such as Questionnaire, List, DocumentReference and Subscription.  Exactly which resources
-will be candidates for normative release will be driven, in part, by the degree of implementation - and whether that implementation
-is communicated back to HL7.
+基础组件的几个组件现已达到规范状态。在未来18-24个月FHIR第5版的准备期间，将重点关注未
+达到规范状态的资源，并完成规范性修订， 比如问卷/问询、清单、引用文档和订阅。究竟哪些资
+源将成为规范发布的候选资源要看FHIR实施者向HL7提供关于实施程序的反馈。
 </p>
 
 </div>
