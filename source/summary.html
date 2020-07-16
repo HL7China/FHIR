@@ -14,85 +14,65 @@
 
 <a name="glossy"></a>
 
-<h1>Introducing HL7 FHIR</h1>
-<table class="colsi"><tr><td id="wg"><a _target="blank" href="[%wg fhir%]">[%wgt fhir%]</a> Work Group</td><td id="fmm"><a href="versions.html#maturity">Maturity Level</a>: N/A</td><td id="ballot"><a href="versions.html#std-process">Standards Status</a>:<!--!ns!--><a href="versions.html#std-process">Informative</a></td></tr></table>
+<h1>HL7 FHIR 介绍</h1>
+<table class="colsi"><tr><td id="wg">工作组<a _target="blank" href="[%wg fhir%]">[%wgt fhir%]</a></td><td id="fmm"><a href="versions.html#maturity">成熟度</a>: N/A</td><td id="ballot"><a href="versions.html#std-process">标准状态</a>:<!--!ns!--><a href="versions.html#std-process">Informative</a></td></tr></table>
 
 <p>
-FHIR® – Fast Healthcare Interoperability Resources (hl7.org/fhir) – is a next generation
-standards framework created by HL7. FHIR combines the best features of HL7's
-<a href="http://www.hl7.org/implement/standards/product_brief.cfm?product_id=185">v2</a>, <a href="https://www.hl7.org/implement/standards/product_brief.cfm?product_id=186">HL7 v3</a> and <a href="http://www.hl7.org/implement/standards/product_brief.cfm?product_id=7">CDA</a> product lines while leveraging the latest web standards
-and applying a tight focus on implementability.
+FHIR®是由hl7创建的下一代标准框架。FHIR结合了HL7的最佳特性
+<a href="http://www.hl7.org/implement/standards/product_brief.cfm?product_id=185">v2</a>, <a href="https://www.hl7.org/implement/standards/product_brief.cfm?product_id=186">HL7 v3</a> 和 <a href="http://www.hl7.org/implement/standards/product_brief.cfm?product_id=7">CDA</a> 的优点，同时利用最新的Web标准并聚焦可实现性。
 </p>
 <p>
-FHIR solutions are built from a set of modular components called "Resources". These
-resources can easily be assembled into working systems that solve real world clinical
-and administrative problems at a fraction of the price of existing alternatives.
-FHIR is suitable for use in a wide variety of contexts – mobile phone apps,
-cloud communications, EHR-based data sharing, server communication
-in large institutional healthcare providers, and much more.
+FHIR 的解决方案是基于一些称之为“资源”的模块化组件的. 这些资源可以很容易应用到现有的生产系统中,只需用已有的其他方案的一小部分成本就能够解决现实中临床和管理上存在的问题. FHIR适用于多种场景– 智能手机APP、云通信、基于EHR的数据共享、大型医疗机构内服务器间通信等等。
 </p>
 
-<h2>Why FHIR is better</h2>
+<h2>为什么FHIR更好</h2>
 <p>
-FHIR offers many improvements over existing standards:
+FHIR在现行标准基础上做了很多改进:
 </p>
 <ul>
-<li>A strong focus on implementation: fast and easy to implement (multiple developers
-have had simple interfaces working in a single day)</li>
-<li>Multiple implementation libraries, many examples available to kick-start development</li>
-<li>Specification is free for use with no restrictions</li>
-<li>Interoperability out-of-the-box: base resources can be used as is, but can also be
-adapted as needed - which happens a lot - for local requirements using Profiles, Extensions, Terminologies and more</li>
-<li>Evolutionary development path from HL7 Version 2 and CDA: standards can co-exist and
-leverage each other</li>
-<li>Strong foundation in Web standards: XML, JSON, HTTP, OAuth, etc.</li>
-<li>Support for RESTful architectures, seamless exchange of information using
-messages or documents, and service-based architectures</li>
-<li>Concise and easily understood specifications</li>
-<li>A human-readable serialization format for ease of use by developers</li>
-<li>Ontology-based analysis with formal mapping for correctness (under development)</li>
+<li>强烈关注实施：快速且易于实施（多个开发人员在一天内就能完成简单的接口）</li>
+<li>很多实现的类库,有很多示例拿来即用，可以帮助开发</li>
+<li>规范可无限制的免费使用</li>
+<li>即开即用的互操作性：基础资源可以按原样使用，但也可以根据需要使用配置、扩展、术语等进行调整（这种情况经常发生），以满足的本地化需求。</li>
+<li>从HL7 V2和CDA演化而来：这些标准可以共存并相互利用</li>
+<li>用Web标准的作为其坚实基础：XML，JSON，HTTP，OAuth等。</li>
+<li>支持RESTful架构和基于服务的架构，使用消息或文档无缝交换信息</li>
+<li>简洁易懂的规范</li>
+<li>为开发人员易于使用提供了人可读的序列化格式</li>
+<li>用基于本体的分析与规范的映射来保证正确性（制定中）</li>
 </ul>
 
 <a name="flex"></a>
 
-<h2>Flexibility / Adaptation</h2>
+<h2>灵活性/适应性</h2>
 <p>
-A central challenge for healthcare standards is how to handle the wide variability caused by diverse healthcare processes. Over time, more fields and optionality are added to the specification, gradually adding cost and complexity to the resulting implementations. The alternative is relying on custom extensions, but these create many implementation problems too.
+医疗标准面临的一个核心挑战是如何应对不同的医疗流程带来的广泛差异。随着时间的推移， 会有更多字段和可选项被添加到规范中，逐渐增加了最终实现的成本和复杂性。另一种选择是依赖于自定义扩展，但实现时也会产生许多问题。
 </p>
 <p>
-FHIR solves this challenge by defining a simple framework for extending the existing resources and describing their use with Profiles. All systems can read all resources, but applications can add more control and meaning using profiles. Many healthcare contexts require extensive local agreements.
+FHIR通过定义一个简单的框架来扩展现有资源并用配置文件描述它们的使用来解决这个挑战。所有系统都可以读取所有资源，但应用程序 可以使用配置文件添加更多控制和意义。许多医疗场境需要大量的本地化支持。
 </p>
 <p>
-In addition, each resource carries a human-readable text representation using html as a fall-back
-display option for clinical safety. This is particularly important for complex clinical information
-where many systems take a simple textual/document based approach.
+此外, 为了临床安全，每个资源都有一个可选项，它使用HTML来显示人可读的文本,作为备用方案。 这很重要，因为有很多系统采用基于简单文本/文档的方法实现，这个可选备用方案很适合用来显示这些系统中的复杂临床信息。 这对那些采用基于简单文本/文档的方法实现的系统里的复杂的临床信息来说尤为重要。
 </p>
 
-<h2>Example Resource: Patient</h2>
+<h2>资源示例：Patient(患者资源)</h2>
 <p>
-This simple example shows the important parts of a resource: a local extension, the human
-readable HTML presentation, and the standard defined data content.
+这个简单的例子展示了资源的重要部分：一个本地扩展，一个人可读的HTML表示和标准定义的数据内容。
 </p>
 <img src="shot.png"/>
 
 <p>
-FHIR has resources for administrative concepts such as patient, provider, organization
-and device as well as a wide variety of clinical concepts covering problems, medications,
-diagnostics, care plans, financial concerns and more.
+FHIR中有针对诸如病人、医务人员、医疗机构和设备的管理性概念的资源，也有很多涵盖了 疾病、用药、诊断、护理计划和财务等临床概念的资源。
 </p>
 
 <a name="status"></a>
-<h2>The FHIR development process</h2>
+<h2>FHIR开发进程</h2>
 <p>
-FHIR is published as a mixed standard with Normative portions, which are kept stable for implementers, 
-and also parts still undergoing Trial Use. HL7 actively monitors implementations in order to continue 
-to improve the specification to be responsive to their needs. 
-Due to the many advantages FHIR offers, FHIR is widely used around the world, and the implementation
-community is growing quickly.
+FHIR 分别于2014年、2015年、2017年发布了三个试行版，并于2018年发布了正式版本R4。在试行期间，HL7 积极地关注着各种实现方案以期能够持续不断对其进行完善，使之能够响应不同的需求。 鉴于FHIR提供的诸多优点，很多地方已经开始试运行.
 </p>
 
 <p>
-<a href="http://hl7.org/fhir">http://hl7.org/fhir</a>. Follow us on Twitter using <a href="https://twitter.com/search?q=%23FHIR">#FHIR</a>
+<a href="http://hl7.org/fhir">http://hl7.org/fhir</a>可以在Twitter上用 <a href="https://twitter.com/search?q=%23FHIR">#FHIR</a>关注我们
 </p>
 
 </div>
