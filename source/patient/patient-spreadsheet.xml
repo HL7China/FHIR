@@ -3,9 +3,9 @@
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office">
   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
     <Author>Grahame</Author>
-    <LastAuthor>向津平</LastAuthor>
+    <LastAuthor>Tery Tsui</LastAuthor>
     <Created>2012-03-19T11:12:07Z</Created>
-    <LastSaved>2018-08-08T15:12:40Z</LastSaved>
+    <LastSaved>2020-07-17T17:08:50Z</LastSaved>
     <Version>16.00</Version>
   </DocumentProperties>
   <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -1108,11 +1108,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s78">
-          <Data ss:Type="String">接受医疗健康服务的个人或动物</Data>
+          <Data ss:Type="String">&#x63A5;&#x53D7;&#x533B;&#x7597;&#x5065;&#x5EB7;&#x670D;&#x52A1;&#x7684;&#x4E2A;&#x4EBA;&#x6216;&#x52A8;&#x7269;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s80">
-          <Data ss:Type="String">接受医疗健康服务个人的人口学信息或动物的管理信息。</Data>
+          <Data ss:Type="String">&#x63A5;&#x53D7;&#x533B;&#x7597;&#x5065;&#x5EB7;&#x670D;&#x52A1;&#x4E2A;&#x4EBA;&#x7684;&#x4EBA;&#x53E3;&#x5B66;&#x4FE1;&#x606F;&#x6216;&#x52A8;&#x7269;&#x7684;&#x7BA1;&#x7406;&#x4FE1;&#x606F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s81">
@@ -1203,15 +1203,15 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">患者交叉索引</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x4EA4;&#x53C9;&#x7D22;&#x5F15;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">患者交叉索引，可以通过各种不同的业务标识符交叉检索到此患者</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x4EA4;&#x53C9;&#x7D22;&#x5F15;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5404;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x4E1A;&#x52A1;&#x6807;&#x8BC6;&#x7B26;&#x4EA4;&#x53C9;&#x68C0;&#x7D22;&#x5230;&#x6B64;&#x60A3;&#x8005;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">患者总会被分配特定的业务标识符。此本地规则中预置了对身份证、医保卡、健康卡的支持。</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x603B;&#x4F1A;&#x88AB;&#x5206;&#x914D;&#x7279;&#x5B9A;&#x7684;&#x4E1A;&#x52A1;&#x6807;&#x8BC6;&#x7B26;&#x3002;&#x6B64;&#x672C;&#x5730;&#x89C4;&#x5219;&#x4E2D;&#x9884;&#x7F6E;&#x4E86;&#x5BF9;&#x8EAB;&#x4EFD;&#x8BC1;&#x3001;&#x533B;&#x4FDD;&#x5361;&#x3001;&#x5065;&#x5EB7;&#x5361;&#x7684;&#x652F;&#x6301;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
@@ -1293,26 +1293,26 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">如果没有为active元素提供值，则默认假定此资源是活动的</Data>
+          <Data ss:Type="String">&#x5982;&#x679C;&#x6CA1;&#x6709;&#x4E3A;active&#x5143;&#x7D20;&#x63D0;&#x4F9B;&#x503C;&#xFF0C;&#x5219;&#x9ED8;&#x8BA4;&#x5047;&#x5B9A;&#x6B64;&#x8D44;&#x6E90;&#x662F;&#x6D3B;&#x52A8;&#x7684;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">是否为活动记录</Data>
+          <Data ss:Type="String">&#x662F;&#x5426;&#x4E3A;&#x6D3B;&#x52A8;&#x8BB0;&#x5F55;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">此患者记录是否可使用的活动记录。许多系统使用此属性将患者标记为非当前患者，例如根据组织的业务规则在一段时间内未就诊的患者。 它通常用于筛选有效患者记录，排除不活动的患者。 死亡的病人也可能被标记为不活动，但在死亡后的一段时间内病历可能还在使用，可以认为是活动的。</Data>
+          <Data ss:Type="String">&#x6B64;&#x60A3;&#x8005;&#x8BB0;&#x5F55;&#x662F;&#x5426;&#x53EF;&#x4F7F;&#x7528;&#x7684;&#x6D3B;&#x52A8;&#x8BB0;&#x5F55;&#x3002;&#x8BB8;&#x591A;&#x7CFB;&#x7EDF;&#x4F7F;&#x7528;&#x6B64;&#x5C5E;&#x6027;&#x5C06;&#x60A3;&#x8005;&#x6807;&#x8BB0;&#x4E3A;&#x975E;&#x5F53;&#x524D;&#x60A3;&#x8005;&#xFF0C;&#x4F8B;&#x5982;&#x6839;&#x636E;&#x7EC4;&#x7EC7;&#x7684;&#x4E1A;&#x52A1;&#x89C4;&#x5219;&#x5728;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x5185;&#x672A;&#x5C31;&#x8BCA;&#x7684;&#x60A3;&#x8005;&#x3002; &#x5B83;&#x901A;&#x5E38;&#x7528;&#x4E8E;&#x7B5B;&#x9009;&#x6709;&#x6548;&#x60A3;&#x8005;&#x8BB0;&#x5F55;&#xFF0C;&#x6392;&#x9664;&#x4E0D;&#x6D3B;&#x52A8;&#x7684;&#x60A3;&#x8005;&#x3002; &#x6B7B;&#x4EA1;&#x7684;&#x75C5;&#x4EBA;&#x4E5F;&#x53EF;&#x80FD;&#x88AB;&#x6807;&#x8BB0;&#x4E3A;&#x4E0D;&#x6D3B;&#x52A8;&#xFF0C;&#x4F46;&#x5728;&#x6B7B;&#x4EA1;&#x540E;&#x7684;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x5185;&#x75C5;&#x5386;&#x53EF;&#x80FD;&#x8FD8;&#x5728;&#x4F7F;&#x7528;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x662F;&#x6D3B;&#x52A8;&#x7684;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">需要能够将错误创建的记录标记为不使用（False)。</Data>
+          <Data ss:Type="String">&#x9700;&#x8981;&#x80FD;&#x591F;&#x5C06;&#x9519;&#x8BEF;&#x521B;&#x5EFA;&#x7684;&#x8BB0;&#x5F55;&#x6807;&#x8BB0;&#x4E3A;&#x4E0D;&#x4F7F;&#x7528;&#xFF08;False)&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">如果某个患者记录A处于非活动状态并被链接到另一个处于活动状态的患者记录B，则后来对患者记录的更新应在B上进行。</Data>
+          <Data ss:Type="String">&#x5982;&#x679C;&#x67D0;&#x4E2A;&#x60A3;&#x8005;&#x8BB0;&#x5F55;A&#x5904;&#x4E8E;&#x975E;&#x6D3B;&#x52A8;&#x72B6;&#x6001;&#x5E76;&#x88AB;&#x94FE;&#x63A5;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x5904;&#x4E8E;&#x6D3B;&#x52A8;&#x72B6;&#x6001;&#x7684;&#x60A3;&#x8005;&#x8BB0;&#x5F55;B&#xFF0C;&#x5219;&#x540E;&#x6765;&#x5BF9;&#x60A3;&#x8005;&#x8BB0;&#x5F55;&#x7684;&#x66F4;&#x65B0;&#x5E94;&#x5728;B&#x4E0A;&#x8FDB;&#x884C;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1394,11 +1394,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">患者姓名</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x59D3;&#x540D;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">符合中国人使用姓名的习惯，支持曾用名、别名，同时支持"全名"和"姓+名"的形式。</Data>
+          <Data ss:Type="String">&#x7B26;&#x5408;&#x4E2D;&#x56FD;&#x4EBA;&#x4F7F;&#x7528;&#x59D3;&#x540D;&#x7684;&#x4E60;&#x60EF;&#xFF0C;&#x652F;&#x6301;&#x66FE;&#x7528;&#x540D;&#x3001;&#x522B;&#x540D;&#xFF0C;&#x540C;&#x65F6;&#x652F;&#x6301;&amp;quot;&#x5168;&#x540D;&amp;quot;&#x548C;&amp;quot;&#x59D3;&#x2B;&#x540D;&amp;quot;&#x7684;&#x5F62;&#x5F0F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1406,7 +1406,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">A patient may have multiple names with different uses or applicable periods. For animals, the name is a "HumanName" in the sense that is assigned and used by humans and has the same patterns.</Data>
+          <Data ss:Type="String">A patient may have multiple names with different uses or applicable periods. For animals, the name is a &amp;quot;HumanName&amp;quot; in the sense that is assigned and used by humans and has the same patterns.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1493,7 +1493,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">电话号码，包括手机或座机。</Data>
+          <Data ss:Type="String">&#x7535;&#x8BDD;&#x53F7;&#x7801;&#xFF0C;&#x5305;&#x62EC;&#x624B;&#x673A;&#x6216;&#x5EA7;&#x673A;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1501,7 +1501,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">A Patient may have multiple ways to be contacted with different uses or applicable periods. May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner's phone).</Data>
+          <Data ss:Type="String">A Patient may have multiple ways to be contacted with different uses or applicable periods. May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner&#x27;s phone).</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1585,11 +1585,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">性别</Data>
+          <Data ss:Type="String">&#x6027;&#x522B;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">生理性别 GB/T 2261.1</Data>
+          <Data ss:Type="String">&#x751F;&#x7406;&#x6027;&#x522B; GB/T 2261.1</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1597,7 +1597,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">The gender might not match the biological sex as determined by genetics or the individual's preferred identification. Note that for both humans and particularly animals, there are other legitimate possibilities than male and female, though the vast majority of systems and contexts only support male and female. Systems providing decision support or enforcing business rules should ideally do this on the basis of Observations dealing with the specific sex or gender aspect of interest (anatomical, chromosomal, social, etc.) However, because these observations are infrequently recorded, defaulting to the administrative gender is common practice. Where such defaulting occurs, rule enforcement should allow for the variation between administrative and biological, chromosomal and other gender aspects. For example, an alert about a hysterectomy on a male should be handled as a warning or overridable error, not a "hard" error. See the Patient Gender and Sex section for additional information about communicating patient gender and sex.</Data>
+          <Data ss:Type="String">The gender might not match the biological sex as determined by genetics or the individual&#x27;s preferred identification. Note that for both humans and particularly animals, there are other legitimate possibilities than male and female, though the vast majority of systems and contexts only support male and female. Systems providing decision support or enforcing business rules should ideally do this on the basis of Observations dealing with the specific sex or gender aspect of interest (anatomical, chromosomal, social, etc.) However, because these observations are infrequently recorded, defaulting to the administrative gender is common practice. Where such defaulting occurs, rule enforcement should allow for the variation between administrative and biological, chromosomal and other gender aspects. For example, an alert about a hysterectomy on a male should be handled as a warning or overridable error, not a &amp;quot;hard&amp;quot; error. See the Patient Gender and Sex section for additional information about communicating patient gender and sex.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1681,11 +1681,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">出生日期</Data>
+          <Data ss:Type="String">&#x51FA;&#x751F;&#x65E5;&#x671F;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">患者的出生年月日</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x7684;&#x51FA;&#x751F;&#x5E74;&#x6708;&#x65E5;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1693,7 +1693,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">At least an estimated year should be provided as a guess if the real DOB is unknown There is a standard extension "patient-birthTime" available that should be used where Time is required (such as in maternity/infant care systems).</Data>
+          <Data ss:Type="String">At least an estimated year should be provided as a guess if the real DOB is unknown There is a standard extension &amp;quot;patient-birthTime&amp;quot; available that should be used where Time is required (such as in maternity/infant care systems).</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1874,19 +1874,19 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">是否死亡</Data>
+          <Data ss:Type="String">&#x662F;&#x5426;&#x6B7B;&#x4EA1;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">指示患者是否死亡，若已亡故，可指定亡故日期</Data>
+          <Data ss:Type="String">&#x6307;&#x793A;&#x60A3;&#x8005;&#x662F;&#x5426;&#x6B7B;&#x4EA1;&#xFF0C;&#x82E5;&#x5DF2;&#x4EA1;&#x6545;&#xFF0C;&#x53EF;&#x6307;&#x5B9A;&#x4EA1;&#x6545;&#x65E5;&#x671F;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">病人死亡的事实会影响临床程序。此外，在人际沟通和关系管理中，有必要知道这个人是否还活着。</Data>
+          <Data ss:Type="String">&#x75C5;&#x4EBA;&#x6B7B;&#x4EA1;&#x7684;&#x4E8B;&#x5B9E;&#x4F1A;&#x5F71;&#x54CD;&#x4E34;&#x5E8A;&#x7A0B;&#x5E8F;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x5728;&#x4EBA;&#x9645;&#x6C9F;&#x901A;&#x548C;&#x5173;&#x7CFB;&#x7BA1;&#x7406;&#x4E2D;&#xFF0C;&#x6709;&#x5FC5;&#x8981;&#x77E5;&#x9053;&#x8FD9;&#x4E2A;&#x4EBA;&#x662F;&#x5426;&#x8FD8;&#x6D3B;&#x7740;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">如果实例中没有值，则表示没有声明该个人是否已死亡。大多数系统都会默认为未死亡。</Data>
+          <Data ss:Type="String">&#x5982;&#x679C;&#x5B9E;&#x4F8B;&#x4E2D;&#x6CA1;&#x6709;&#x503C;&#xFF0C;&#x5219;&#x8868;&#x793A;&#x6CA1;&#x6709;&#x58F0;&#x660E;&#x8BE5;&#x4E2A;&#x4EBA;&#x662F;&#x5426;&#x5DF2;&#x6B7B;&#x4EA1;&#x3002;&#x5927;&#x591A;&#x6570;&#x7CFB;&#x7EDF;&#x90FD;&#x4F1A;&#x9ED8;&#x8BA4;&#x4E3A;&#x672A;&#x6B7B;&#x4EA1;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1968,11 +1968,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">地址</Data>
+          <Data ss:Type="String">&#x5730;&#x5740;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">使用中国行政区划表示的地址 （非GPS或经纬度地址）。</Data>
+          <Data ss:Type="String">&#x4F7F;&#x7528;&#x4E2D;&#x56FD;&#x884C;&#x653F;&#x533A;&#x5212;&#x8868;&#x793A;&#x7684;&#x5730;&#x5740; &#xFF08;&#x975E;GPS&#x6216;&#x7ECF;&#x7EAC;&#x5EA6;&#x5730;&#x5740;&#xFF09;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2063,11 +2063,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">婚姻状况</Data>
+          <Data ss:Type="String">&#x5A5A;&#x59FB;&#x72B6;&#x51B5;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">患者最近的婚姻（民事）状态。GB/T 2261.2</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x6700;&#x8FD1;&#x7684;&#x5A5A;&#x59FB;&#xFF08;&#x6C11;&#x4E8B;&#xFF09;&#x72B6;&#x6001;&#x3002;GB/T 2261.2</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2155,19 +2155,19 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">多胞胎</Data>
+          <Data ss:Type="String">&#x591A;&#x80DE;&#x80CE;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">填写布尔值用于说明患者是否为多胞胎中的一员；填写整数值则表明患者在多胞胎中的实际出生顺序。</Data>
+          <Data ss:Type="String">&#x586B;&#x5199;&#x5E03;&#x5C14;&#x503C;&#x7528;&#x4E8E;&#x8BF4;&#x660E;&#x60A3;&#x8005;&#x662F;&#x5426;&#x4E3A;&#x591A;&#x80DE;&#x80CE;&#x4E2D;&#x7684;&#x4E00;&#x5458;&#xFF1B;&#x586B;&#x5199;&#x6574;&#x6570;&#x503C;&#x5219;&#x8868;&#x660E;&#x60A3;&#x8005;&#x5728;&#x591A;&#x80DE;&#x80CE;&#x4E2D;&#x7684;&#x5B9E;&#x9645;&#x51FA;&#x751F;&#x987A;&#x5E8F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">用于排除多胞胎的歧义，特别是在医护人员未能与患者见面的时，可使用此字段确定长幼顺序。</Data>
+          <Data ss:Type="String">&#x7528;&#x4E8E;&#x6392;&#x9664;&#x591A;&#x80DE;&#x80CE;&#x7684;&#x6B67;&#x4E49;&#xFF0C;&#x7279;&#x522B;&#x662F;&#x5728;&#x533B;&#x62A4;&#x4EBA;&#x5458;&#x672A;&#x80FD;&#x4E0E;&#x60A3;&#x8005;&#x89C1;&#x9762;&#x7684;&#x65F6;&#xFF0C;&#x53EF;&#x4F7F;&#x7528;&#x6B64;&#x5B57;&#x6BB5;&#x786E;&#x5B9A;&#x957F;&#x5E7C;&#x987A;&#x5E8F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">填写整数值，表示的是患者在多胞胎中的实际出生顺序编号。例如，三胞胎中第2个出生者为valueInteger=2，第三个出生者为valueInteger=3。如果用布尔值填写，则3个患者的此元素都应该填写value boolean=true（未指明顺序）。</Data>
+          <Data ss:Type="String">&#x586B;&#x5199;&#x6574;&#x6570;&#x503C;&#xFF0C;&#x8868;&#x793A;&#x7684;&#x662F;&#x60A3;&#x8005;&#x5728;&#x591A;&#x80DE;&#x80CE;&#x4E2D;&#x7684;&#x5B9E;&#x9645;&#x51FA;&#x751F;&#x987A;&#x5E8F;&#x7F16;&#x53F7;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x4E09;&#x80DE;&#x80CE;&#x4E2D;&#x7B2C;2&#x4E2A;&#x51FA;&#x751F;&#x8005;&#x4E3A;valueInteger=2&#xFF0C;&#x7B2C;&#x4E09;&#x4E2A;&#x51FA;&#x751F;&#x8005;&#x4E3A;valueInteger=3&#x3002;&#x5982;&#x679C;&#x7528;&#x5E03;&#x5C14;&#x503C;&#x586B;&#x5199;&#xFF0C;&#x5219;3&#x4E2A;&#x60A3;&#x8005;&#x7684;&#x6B64;&#x5143;&#x7D20;&#x90FD;&#x5E94;&#x8BE5;&#x586B;&#x5199;value boolean=true&#xFF08;&#x672A;&#x6307;&#x660E;&#x987A;&#x5E8F;&#xFF09;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2248,19 +2248,19 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">照片</Data>
+          <Data ss:Type="String">&#x7167;&#x7247;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">患者的照片</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x7684;&#x7167;&#x7247;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">建议使用存储在身份证、居民健康卡或医保卡的照片</Data>
+          <Data ss:Type="String">&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x5B58;&#x50A8;&#x5728;&#x8EAB;&#x4EFD;&#x8BC1;&#x3001;&#x5C45;&#x6C11;&#x5065;&#x5EB7;&#x5361;&#x6216;&#x533B;&#x4FDD;&#x5361;&#x7684;&#x7167;&#x7247;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">指南: * 使用证件照而非临床照片. * 将尺寸限制为缩略图. * 尽量限制图像所占用的存储大小以便资源更新。</Data>
+          <Data ss:Type="String">&#x6307;&#x5357;: * &#x4F7F;&#x7528;&#x8BC1;&#x4EF6;&#x7167;&#x800C;&#x975E;&#x4E34;&#x5E8A;&#x7167;&#x7247;. * &#x5C06;&#x5C3A;&#x5BF8;&#x9650;&#x5236;&#x4E3A;&#x7F29;&#x7565;&#x56FE;. * &#x5C3D;&#x91CF;&#x9650;&#x5236;&#x56FE;&#x50CF;&#x6240;&#x5360;&#x7528;&#x7684;&#x5B58;&#x50A8;&#x5927;&#x5C0F;&#x4EE5;&#x4FBF;&#x8D44;&#x6E90;&#x66F4;&#x65B0;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2342,11 +2342,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">联系人</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">可以联系到患者的其它人，如紧急联系人、配偶、亲属、朋友、担保人等</Data>
+          <Data ss:Type="String">&#x53EF;&#x4EE5;&#x8054;&#x7CFB;&#x5230;&#x60A3;&#x8005;&#x7684;&#x5176;&#x5B83;&#x4EBA;&#xFF0C;&#x5982;&#x7D27;&#x6025;&#x8054;&#x7CFB;&#x4EBA;&#x3001;&#x914D;&#x5076;&#x3001;&#x4EB2;&#x5C5E;&#x3001;&#x670B;&#x53CB;&#x3001;&#x62C5;&#x4FDD;&#x4EBA;&#x7B49;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2354,7 +2354,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">包括各种联系人：家庭成员、业务联系人、监护人、照护人员。不适用于登记血统和家庭关系以外的使用有联系。</Data>
+          <Data ss:Type="String">&#x5305;&#x62EC;&#x5404;&#x79CD;&#x8054;&#x7CFB;&#x4EBA;&#xFF1A;&#x5BB6;&#x5EAD;&#x6210;&#x5458;&#x3001;&#x4E1A;&#x52A1;&#x8054;&#x7CFB;&#x4EBA;&#x3001;&#x76D1;&#x62A4;&#x4EBA;&#x3001;&#x7167;&#x62A4;&#x4EBA;&#x5458;&#x3002;&#x4E0D;&#x9002;&#x7528;&#x4E8E;&#x767B;&#x8BB0;&#x8840;&#x7EDF;&#x548C;&#x5BB6;&#x5EAD;&#x5173;&#x7CFB;&#x4EE5;&#x5916;&#x7684;&#x4F7F;&#x7528;&#x6709;&#x8054;&#x7CFB;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2436,11 +2436,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">联系人关系</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x5173;&#x7CFB;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">患者与此联系人的关系</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x4E0E;&#x6B64;&#x8054;&#x7CFB;&#x4EBA;&#x7684;&#x5173;&#x7CFB;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2528,11 +2528,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">联系人姓名</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x59D3;&#x540D;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">联系人姓名</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x59D3;&#x540D;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2620,11 +2620,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">联系人电话号码</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x7535;&#x8BDD;&#x53F7;&#x7801;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">联系人电话号码，包括手机或座机.</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x7535;&#x8BDD;&#x53F7;&#x7801;&#xFF0C;&#x5305;&#x62EC;&#x624B;&#x673A;&#x6216;&#x5EA7;&#x673A;.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2713,11 +2713,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">地址</Data>
+          <Data ss:Type="String">&#x5730;&#x5740;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">使用中国行政区划表示的地址 （非GPS或经纬度地址）。</Data>
+          <Data ss:Type="String">&#x4F7F;&#x7528;&#x4E2D;&#x56FD;&#x884C;&#x653F;&#x533A;&#x5212;&#x8868;&#x793A;&#x7684;&#x5730;&#x5740; &#xFF08;&#x975E;GPS&#x6216;&#x7ECF;&#x7EAC;&#x5EA6;&#x5730;&#x5740;&#xFF09;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2806,11 +2806,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">性 别</Data>
+          <Data ss:Type="String">&#x6027; &#x522B;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">生理 性别 GB/T 2261.1</Data>
+          <Data ss:Type="String">&#x751F;&#x7406; &#x6027;&#x522B; GB/T 2261.1</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2899,11 +2899,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">与联系人相关的组织</Data>
+          <Data ss:Type="String">&#x4E0E;&#x8054;&#x7CFB;&#x4EBA;&#x76F8;&#x5173;&#x7684;&#x7EC4;&#x7EC7;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">联系人所代表的组织或联系人工作的组织。</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x6240;&#x4EE3;&#x8868;&#x7684;&#x7EC4;&#x7EC7;&#x6216;&#x8054;&#x7CFB;&#x4EBA;&#x5DE5;&#x4F5C;&#x7684;&#x7EC4;&#x7EC7;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2991,11 +2991,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">时段范围</Data>
+          <Data ss:Type="String">&#x65F6;&#x6BB5;&#x8303;&#x56F4;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">由开始和结束时间以及可选时间定义的时间段范围。</Data>
+          <Data ss:Type="String">&#x7531;&#x5F00;&#x59CB;&#x548C;&#x7ED3;&#x675F;&#x65F6;&#x95F4;&#x4EE5;&#x53CA;&#x53EF;&#x9009;&#x65F6;&#x95F4;&#x5B9A;&#x4E49;&#x7684;&#x65F6;&#x95F4;&#x6BB5;&#x8303;&#x56F4;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -3656,7 +3656,7 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. "en" for English, or "en-US" for American English versus "en-EN" for England English.</Data>
+          <Data ss:Type="String">The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. &amp;quot;en&amp;quot; for English, or &amp;quot;en-US&amp;quot; for American English versus &amp;quot;en-EN&amp;quot; for England English.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4027,18 +4027,18 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">Patient's nominated primary care provider</Data>
+          <Data ss:Type="String">Patient&#x27;s nominated primary care provider</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">患者提名的初诊提供者</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x63D0;&#x540D;&#x7684;&#x521D;&#x8BCA;&#x63D0;&#x4F9B;&#x8005;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">This may be the primary care provider (in a GP context), or it may be a patient nominated care manager in a community/disability setting, or even organization that will provide people to perform the care provider roles. It is not to be used to record Care Teams, these should be in a CareTeam resource that may be linked to the CarePlan or EpisodeOfCare resources. Multiple GPs may be recorded against the patient for various reasons, such as a student that has his home GP listed along with the GP at university during the school semesters, or a "fly-in/fly-out" worker that has the onsite GP also included with his home GP to remain aware of medical issues. Jurisdictions may decide that they can profile this down to 1 if desired, or 1 per type.</Data>
+          <Data ss:Type="String">This may be the primary care provider (in a GP context), or it may be a patient nominated care manager in a community/disability setting, or even organization that will provide people to perform the care provider roles. It is not to be used to record Care Teams, these should be in a CareTeam resource that may be linked to the CarePlan or EpisodeOfCare resources. Multiple GPs may be recorded against the patient for various reasons, such as a student that has his home GP listed along with the GP at university during the school semesters, or a &amp;quot;fly-in/fly-out&amp;quot; worker that has the onsite GP also included with his home GP to remain aware of medical issues. Jurisdictions may decide that they can profile this down to 1 if desired, or 1 per type.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4121,11 +4121,11 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">管理机构</Data>
+          <Data ss:Type="String">&#x7BA1;&#x7406;&#x673A;&#x6784;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">保管此患者病历的组织机构</Data>
+          <Data ss:Type="String">&#x4FDD;&#x7BA1;&#x6B64;&#x60A3;&#x8005;&#x75C5;&#x5386;&#x7684;&#x7EC4;&#x7EC7;&#x673A;&#x6784;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4215,19 +4215,19 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">关联人</Data>
+          <Data ss:Type="String">&#x5173;&#x8054;&#x4EBA;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">链接到与此患者相关的另一个患者资源或相关人员</Data>
+          <Data ss:Type="String">&#x94FE;&#x63A5;&#x5230;&#x4E0E;&#x6B64;&#x60A3;&#x8005;&#x76F8;&#x5173;&#x7684;&#x53E6;&#x4E00;&#x4E2A;&#x60A3;&#x8005;&#x8D44;&#x6E90;&#x6216;&#x76F8;&#x5173;&#x4EBA;&#x5458;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">两个用途： 1、链接没有及时发现的重复患者记录 2、链接分布式服务器上的相关患者信息。</Data>
+          <Data ss:Type="String">&#x4E24;&#x4E2A;&#x7528;&#x9014;&#xFF1A; 1&#x3001;&#x94FE;&#x63A5;&#x6CA1;&#x6709;&#x53CA;&#x65F6;&#x53D1;&#x73B0;&#x7684;&#x91CD;&#x590D;&#x60A3;&#x8005;&#x8BB0;&#x5F55; 2&#x3001;&#x94FE;&#x63A5;&#x5206;&#x5E03;&#x5F0F;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#x76F8;&#x5173;&#x60A3;&#x8005;&#x4FE1;&#x606F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">链接的患者记录不一定是相互链接的。</Data>
+          <Data ss:Type="String">&#x94FE;&#x63A5;&#x7684;&#x60A3;&#x8005;&#x8BB0;&#x5F55;&#x4E0D;&#x4E00;&#x5B9A;&#x662F;&#x76F8;&#x4E92;&#x94FE;&#x63A5;&#x7684;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4309,18 +4309,18 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">关联记录</Data>
+          <Data ss:Type="String">&#x5173;&#x8054;&#x8BB0;&#x5F55;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">链接所指向的其他相关患者资源</Data>
+          <Data ss:Type="String">&#x94FE;&#x63A5;&#x6240;&#x6307;&#x5411;&#x7684;&#x5176;&#x4ED6;&#x76F8;&#x5173;&#x60A3;&#x8005;&#x8D44;&#x6E90;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">仅用于关联疑似同一患者的记录。去掉了对相关人资源(RelatedPerson)的链接</Data>
+          <Data ss:Type="String">&#x4EC5;&#x7528;&#x4E8E;&#x5173;&#x8054;&#x7591;&#x4F3C;&#x540C;&#x4E00;&#x60A3;&#x8005;&#x7684;&#x8BB0;&#x5F55;&#x3002;&#x53BB;&#x6389;&#x4E86;&#x5BF9;&#x76F8;&#x5173;&#x4EBA;&#x8D44;&#x6E90;(RelatedPerson)&#x7684;&#x94FE;&#x63A5;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4406,11 +4406,11 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">关系类别</Data>
+          <Data ss:Type="String">&#x5173;&#x7CFB;&#x7C7B;&#x522B;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">此患者与另一患者资源之间的关系，包括被替代、替代、引用、参见（replaced-by | replaces | refer | seealso）</Data>
+          <Data ss:Type="String">&#x6B64;&#x60A3;&#x8005;&#x4E0E;&#x53E6;&#x4E00;&#x60A3;&#x8005;&#x8D44;&#x6E90;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x5305;&#x62EC;&#x88AB;&#x66FF;&#x4EE3;&#x3001;&#x66FF;&#x4EE3;&#x3001;&#x5F15;&#x7528;&#x3001;&#x53C2;&#x89C1;&#xFF08;replaced-by | replaces | refer | seealso&#xFF09;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
