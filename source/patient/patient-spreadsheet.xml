@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:o="urn:schemas-microsoft-com:office:office">
   <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
@@ -1108,11 +1108,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s78">
-          <Data ss:Type="String">&amp;#x63A5;&amp;#x53D7;&amp;#x533B;&amp;#x7597;&amp;#x5065;&amp;#x5EB7;&amp;#x670D;&amp;#x52A1;&amp;#x7684;&amp;#x4E2A;&amp;#x4EBA;&amp;#x6216;&amp;#x52A8;&amp;#x7269;</Data>
+          <Data ss:Type="String">&#x63A5;&#x53D7;&#x533B;&#x7597;&#x5065;&#x5EB7;&#x670D;&#x52A1;&#x7684;&#x4E2A;&#x4EBA;&#x6216;&#x52A8;&#x7269;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s80">
-          <Data ss:Type="String">&amp;#x63A5;&amp;#x53D7;&amp;#x533B;&amp;#x7597;&amp;#x5065;&amp;#x5EB7;&amp;#x670D;&amp;#x52A1;&amp;#x4E2A;&amp;#x4EBA;&amp;#x7684;&amp;#x4EBA;&amp;#x53E3;&amp;#x5B66;&amp;#x4FE1;&amp;#x606F;&amp;#x6216;&amp;#x52A8;&amp;#x7269;&amp;#x7684;&amp;#x7BA1;&amp;#x7406;&amp;#x4FE1;&amp;#x606F;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x63A5;&#x53D7;&#x533B;&#x7597;&#x5065;&#x5EB7;&#x670D;&#x52A1;&#x4E2A;&#x4EBA;&#x7684;&#x4EBA;&#x53E3;&#x5B66;&#x4FE1;&#x606F;&#x6216;&#x52A8;&#x7269;&#x7684;&#x7BA1;&#x7406;&#x4FE1;&#x606F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s81">
@@ -1203,15 +1203,15 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x4EA4;&amp;#x53C9;&amp;#x7D22;&amp;#x5F15;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x4EA4;&#x53C9;&#x7D22;&#x5F15;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x4EA4;&amp;#x53C9;&amp;#x7D22;&amp;#x5F15;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x901A;&amp;#x8FC7;&amp;#x5404;&amp;#x79CD;&amp;#x4E0D;&amp;#x540C;&amp;#x7684;&amp;#x4E1A;&amp;#x52A1;&amp;#x6807;&amp;#x8BC6;&amp;#x7B26;&amp;#x4EA4;&amp;#x53C9;&amp;#x68C0;&amp;#x7D22;&amp;#x5230;&amp;#x6B64;&amp;#x60A3;&amp;#x8005;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x4EA4;&#x53C9;&#x7D22;&#x5F15;&#xFF0C;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5404;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x4E1A;&#x52A1;&#x6807;&#x8BC6;&#x7B26;&#x4EA4;&#x53C9;&#x68C0;&#x7D22;&#x5230;&#x6B64;&#x60A3;&#x8005;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x603B;&amp;#x4F1A;&amp;#x88AB;&amp;#x5206;&amp;#x914D;&amp;#x7279;&amp;#x5B9A;&amp;#x7684;&amp;#x4E1A;&amp;#x52A1;&amp;#x6807;&amp;#x8BC6;&amp;#x7B26;&amp;#x3002;&amp;#x6B64;&amp;#x672C;&amp;#x5730;&amp;#x89C4;&amp;#x5219;&amp;#x4E2D;&amp;#x9884;&amp;#x7F6E;&amp;#x4E86;&amp;#x5BF9;&amp;#x8EAB;&amp;#x4EFD;&amp;#x8BC1;&amp;#x3001;&amp;#x533B;&amp;#x4FDD;&amp;#x5361;&amp;#x3001;&amp;#x5065;&amp;#x5EB7;&amp;#x5361;&amp;#x7684;&amp;#x652F;&amp;#x6301;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x603B;&#x4F1A;&#x88AB;&#x5206;&#x914D;&#x7279;&#x5B9A;&#x7684;&#x4E1A;&#x52A1;&#x6807;&#x8BC6;&#x7B26;&#x3002;&#x6B64;&#x672C;&#x5730;&#x89C4;&#x5219;&#x4E2D;&#x9884;&#x7F6E;&#x4E86;&#x5BF9;&#x8EAB;&#x4EFD;&#x8BC1;&#x3001;&#x533B;&#x4FDD;&#x5361;&#x3001;&#x5065;&#x5EB7;&#x5361;&#x7684;&#x652F;&#x6301;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
@@ -1293,26 +1293,26 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x5982;&amp;#x679C;&amp;#x6CA1;&amp;#x6709;&amp;#x4E3A;active&amp;#x5143;&amp;#x7D20;&amp;#x63D0;&amp;#x4F9B;&amp;#x503C;&amp;#xFF0C;&amp;#x5219;&amp;#x9ED8;&amp;#x8BA4;&amp;#x5047;&amp;#x5B9A;&amp;#x6B64;&amp;#x8D44;&amp;#x6E90;&amp;#x662F;&amp;#x6D3B;&amp;#x52A8;&amp;#x7684;</Data>
+          <Data ss:Type="String">&#x5982;&#x679C;&#x6CA1;&#x6709;&#x4E3A;active&#x5143;&#x7D20;&#x63D0;&#x4F9B;&#x503C;&#xFF0C;&#x5219;&#x9ED8;&#x8BA4;&#x5047;&#x5B9A;&#x6B64;&#x8D44;&#x6E90;&#x662F;&#x6D3B;&#x52A8;&#x7684;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x662F;&amp;#x5426;&amp;#x4E3A;&amp;#x6D3B;&amp;#x52A8;&amp;#x8BB0;&amp;#x5F55;</Data>
+          <Data ss:Type="String">&#x662F;&#x5426;&#x4E3A;&#x6D3B;&#x52A8;&#x8BB0;&#x5F55;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x6B64;&amp;#x60A3;&amp;#x8005;&amp;#x8BB0;&amp;#x5F55;&amp;#x662F;&amp;#x5426;&amp;#x53EF;&amp;#x4F7F;&amp;#x7528;&amp;#x7684;&amp;#x6D3B;&amp;#x52A8;&amp;#x8BB0;&amp;#x5F55;&amp;#x3002;&amp;#x8BB8;&amp;#x591A;&amp;#x7CFB;&amp;#x7EDF;&amp;#x4F7F;&amp;#x7528;&amp;#x6B64;&amp;#x5C5E;&amp;#x6027;&amp;#x5C06;&amp;#x60A3;&amp;#x8005;&amp;#x6807;&amp;#x8BB0;&amp;#x4E3A;&amp;#x975E;&amp;#x5F53;&amp;#x524D;&amp;#x60A3;&amp;#x8005;&amp;#xFF0C;&amp;#x4F8B;&amp;#x5982;&amp;#x6839;&amp;#x636E;&amp;#x7EC4;&amp;#x7EC7;&amp;#x7684;&amp;#x4E1A;&amp;#x52A1;&amp;#x89C4;&amp;#x5219;&amp;#x5728;&amp;#x4E00;&amp;#x6BB5;&amp;#x65F6;&amp;#x95F4;&amp;#x5185;&amp;#x672A;&amp;#x5C31;&amp;#x8BCA;&amp;#x7684;&amp;#x60A3;&amp;#x8005;&amp;#x3002; &amp;#x5B83;&amp;#x901A;&amp;#x5E38;&amp;#x7528;&amp;#x4E8E;&amp;#x7B5B;&amp;#x9009;&amp;#x6709;&amp;#x6548;&amp;#x60A3;&amp;#x8005;&amp;#x8BB0;&amp;#x5F55;&amp;#xFF0C;&amp;#x6392;&amp;#x9664;&amp;#x4E0D;&amp;#x6D3B;&amp;#x52A8;&amp;#x7684;&amp;#x60A3;&amp;#x8005;&amp;#x3002; &amp;#x6B7B;&amp;#x4EA1;&amp;#x7684;&amp;#x75C5;&amp;#x4EBA;&amp;#x4E5F;&amp;#x53EF;&amp;#x80FD;&amp;#x88AB;&amp;#x6807;&amp;#x8BB0;&amp;#x4E3A;&amp;#x4E0D;&amp;#x6D3B;&amp;#x52A8;&amp;#xFF0C;&amp;#x4F46;&amp;#x5728;&amp;#x6B7B;&amp;#x4EA1;&amp;#x540E;&amp;#x7684;&amp;#x4E00;&amp;#x6BB5;&amp;#x65F6;&amp;#x95F4;&amp;#x5185;&amp;#x75C5;&amp;#x5386;&amp;#x53EF;&amp;#x80FD;&amp;#x8FD8;&amp;#x5728;&amp;#x4F7F;&amp;#x7528;&amp;#xFF0C;&amp;#x53EF;&amp;#x4EE5;&amp;#x8BA4;&amp;#x4E3A;&amp;#x662F;&amp;#x6D3B;&amp;#x52A8;&amp;#x7684;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x6B64;&#x60A3;&#x8005;&#x8BB0;&#x5F55;&#x662F;&#x5426;&#x53EF;&#x4F7F;&#x7528;&#x7684;&#x6D3B;&#x52A8;&#x8BB0;&#x5F55;&#x3002;&#x8BB8;&#x591A;&#x7CFB;&#x7EDF;&#x4F7F;&#x7528;&#x6B64;&#x5C5E;&#x6027;&#x5C06;&#x60A3;&#x8005;&#x6807;&#x8BB0;&#x4E3A;&#x975E;&#x5F53;&#x524D;&#x60A3;&#x8005;&#xFF0C;&#x4F8B;&#x5982;&#x6839;&#x636E;&#x7EC4;&#x7EC7;&#x7684;&#x4E1A;&#x52A1;&#x89C4;&#x5219;&#x5728;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x5185;&#x672A;&#x5C31;&#x8BCA;&#x7684;&#x60A3;&#x8005;&#x3002; &#x5B83;&#x901A;&#x5E38;&#x7528;&#x4E8E;&#x7B5B;&#x9009;&#x6709;&#x6548;&#x60A3;&#x8005;&#x8BB0;&#x5F55;&#xFF0C;&#x6392;&#x9664;&#x4E0D;&#x6D3B;&#x52A8;&#x7684;&#x60A3;&#x8005;&#x3002; &#x6B7B;&#x4EA1;&#x7684;&#x75C5;&#x4EBA;&#x4E5F;&#x53EF;&#x80FD;&#x88AB;&#x6807;&#x8BB0;&#x4E3A;&#x4E0D;&#x6D3B;&#x52A8;&#xFF0C;&#x4F46;&#x5728;&#x6B7B;&#x4EA1;&#x540E;&#x7684;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x5185;&#x75C5;&#x5386;&#x53EF;&#x80FD;&#x8FD8;&#x5728;&#x4F7F;&#x7528;&#xFF0C;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x662F;&#x6D3B;&#x52A8;&#x7684;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">&amp;#x9700;&amp;#x8981;&amp;#x80FD;&amp;#x591F;&amp;#x5C06;&amp;#x9519;&amp;#x8BEF;&amp;#x521B;&amp;#x5EFA;&amp;#x7684;&amp;#x8BB0;&amp;#x5F55;&amp;#x6807;&amp;#x8BB0;&amp;#x4E3A;&amp;#x4E0D;&amp;#x4F7F;&amp;#x7528;&amp;#xFF08;False)&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x9700;&#x8981;&#x80FD;&#x591F;&#x5C06;&#x9519;&#x8BEF;&#x521B;&#x5EFA;&#x7684;&#x8BB0;&#x5F55;&#x6807;&#x8BB0;&#x4E3A;&#x4E0D;&#x4F7F;&#x7528;&#xFF08;False)&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x5982;&amp;#x679C;&amp;#x67D0;&amp;#x4E2A;&amp;#x60A3;&amp;#x8005;&amp;#x8BB0;&amp;#x5F55;A&amp;#x5904;&amp;#x4E8E;&amp;#x975E;&amp;#x6D3B;&amp;#x52A8;&amp;#x72B6;&amp;#x6001;&amp;#x5E76;&amp;#x88AB;&amp;#x94FE;&amp;#x63A5;&amp;#x5230;&amp;#x53E6;&amp;#x4E00;&amp;#x4E2A;&amp;#x5904;&amp;#x4E8E;&amp;#x6D3B;&amp;#x52A8;&amp;#x72B6;&amp;#x6001;&amp;#x7684;&amp;#x60A3;&amp;#x8005;&amp;#x8BB0;&amp;#x5F55;B&amp;#xFF0C;&amp;#x5219;&amp;#x540E;&amp;#x6765;&amp;#x5BF9;&amp;#x60A3;&amp;#x8005;&amp;#x8BB0;&amp;#x5F55;&amp;#x7684;&amp;#x66F4;&amp;#x65B0;&amp;#x5E94;&amp;#x5728;B&amp;#x4E0A;&amp;#x8FDB;&amp;#x884C;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x5982;&#x679C;&#x67D0;&#x4E2A;&#x60A3;&#x8005;&#x8BB0;&#x5F55;A&#x5904;&#x4E8E;&#x975E;&#x6D3B;&#x52A8;&#x72B6;&#x6001;&#x5E76;&#x88AB;&#x94FE;&#x63A5;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x5904;&#x4E8E;&#x6D3B;&#x52A8;&#x72B6;&#x6001;&#x7684;&#x60A3;&#x8005;&#x8BB0;&#x5F55;B&#xFF0C;&#x5219;&#x540E;&#x6765;&#x5BF9;&#x60A3;&#x8005;&#x8BB0;&#x5F55;&#x7684;&#x66F4;&#x65B0;&#x5E94;&#x5728;B&#x4E0A;&#x8FDB;&#x884C;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1394,11 +1394,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x59D3;&amp;#x540D;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x59D3;&#x540D;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x7B26;&amp;#x5408;&amp;#x4E2D;&amp;#x56FD;&amp;#x4EBA;&amp;#x4F7F;&amp;#x7528;&amp;#x59D3;&amp;#x540D;&amp;#x7684;&amp;#x4E60;&amp;#x60EF;&amp;#xFF0C;&amp;#x652F;&amp;#x6301;&amp;#x66FE;&amp;#x7528;&amp;#x540D;&amp;#x3001;&amp;#x522B;&amp;#x540D;&amp;#xFF0C;&amp;#x540C;&amp;#x65F6;&amp;#x652F;&amp;#x6301;&amp;quot;&amp;#x5168;&amp;#x540D;&amp;quot;&amp;#x548C;&amp;quot;&amp;#x59D3;&amp;#x2B;&amp;#x540D;&amp;quot;&amp;#x7684;&amp;#x5F62;&amp;#x5F0F;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x7B26;&#x5408;&#x4E2D;&#x56FD;&#x4EBA;&#x4F7F;&#x7528;&#x59D3;&#x540D;&#x7684;&#x4E60;&#x60EF;&#xFF0C;&#x652F;&#x6301;&#x66FE;&#x7528;&#x540D;&#x3001;&#x522B;&#x540D;&#xFF0C;&#x540C;&#x65F6;&#x652F;&#x6301;&amp;quot;&#x5168;&#x540D;&amp;quot;&#x548C;&amp;quot;&#x59D3;&#x2B;&#x540D;&amp;quot;&#x7684;&#x5F62;&#x5F0F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1493,7 +1493,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x7535;&amp;#x8BDD;&amp;#x53F7;&amp;#x7801;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;&amp;#x624B;&amp;#x673A;&amp;#x6216;&amp;#x5EA7;&amp;#x673A;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x7535;&#x8BDD;&#x53F7;&#x7801;&#xFF0C;&#x5305;&#x62EC;&#x624B;&#x673A;&#x6216;&#x5EA7;&#x673A;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1501,7 +1501,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">A Patient may have multiple ways to be contacted with different uses or applicable periods. May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner&amp;#x27;s phone).</Data>
+          <Data ss:Type="String">A Patient may have multiple ways to be contacted with different uses or applicable periods. May need to have options for contacting the person urgently and also to help with identification. The address might not go directly to the individual, but may reach another party that is able to proxy for the patient (i.e. home phone, or pet owner&#x27;s phone).</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1585,11 +1585,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x6027;&amp;#x522B;</Data>
+          <Data ss:Type="String">&#x6027;&#x522B;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x751F;&amp;#x7406;&amp;#x6027;&amp;#x522B; GB/T 2261.1</Data>
+          <Data ss:Type="String">&#x751F;&#x7406;&#x6027;&#x522B; GB/T 2261.1</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1597,7 +1597,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">The gender might not match the biological sex as determined by genetics or the individual&amp;#x27;s preferred identification. Note that for both humans and particularly animals, there are other legitimate possibilities than male and female, though the vast majority of systems and contexts only support male and female. Systems providing decision support or enforcing business rules should ideally do this on the basis of Observations dealing with the specific sex or gender aspect of interest (anatomical, chromosomal, social, etc.) However, because these observations are infrequently recorded, defaulting to the administrative gender is common practice. Where such defaulting occurs, rule enforcement should allow for the variation between administrative and biological, chromosomal and other gender aspects. For example, an alert about a hysterectomy on a male should be handled as a warning or overridable error, not a &amp;quot;hard&amp;quot; error. See the Patient Gender and Sex section for additional information about communicating patient gender and sex.</Data>
+          <Data ss:Type="String">The gender might not match the biological sex as determined by genetics or the individual&#x27;s preferred identification. Note that for both humans and particularly animals, there are other legitimate possibilities than male and female, though the vast majority of systems and contexts only support male and female. Systems providing decision support or enforcing business rules should ideally do this on the basis of Observations dealing with the specific sex or gender aspect of interest (anatomical, chromosomal, social, etc.) However, because these observations are infrequently recorded, defaulting to the administrative gender is common practice. Where such defaulting occurs, rule enforcement should allow for the variation between administrative and biological, chromosomal and other gender aspects. For example, an alert about a hysterectomy on a male should be handled as a warning or overridable error, not a &amp;quot;hard&amp;quot; error. See the Patient Gender and Sex section for additional information about communicating patient gender and sex.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1681,11 +1681,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x51FA;&amp;#x751F;&amp;#x65E5;&amp;#x671F;</Data>
+          <Data ss:Type="String">&#x51FA;&#x751F;&#x65E5;&#x671F;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x7684;&amp;#x51FA;&amp;#x751F;&amp;#x5E74;&amp;#x6708;&amp;#x65E5;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x7684;&#x51FA;&#x751F;&#x5E74;&#x6708;&#x65E5;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1874,19 +1874,19 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x662F;&amp;#x5426;&amp;#x6B7B;&amp;#x4EA1;</Data>
+          <Data ss:Type="String">&#x662F;&#x5426;&#x6B7B;&#x4EA1;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x6307;&amp;#x793A;&amp;#x60A3;&amp;#x8005;&amp;#x662F;&amp;#x5426;&amp;#x6B7B;&amp;#x4EA1;&amp;#xFF0C;&amp;#x82E5;&amp;#x5DF2;&amp;#x4EA1;&amp;#x6545;&amp;#xFF0C;&amp;#x53EF;&amp;#x6307;&amp;#x5B9A;&amp;#x4EA1;&amp;#x6545;&amp;#x65E5;&amp;#x671F;</Data>
+          <Data ss:Type="String">&#x6307;&#x793A;&#x60A3;&#x8005;&#x662F;&#x5426;&#x6B7B;&#x4EA1;&#xFF0C;&#x82E5;&#x5DF2;&#x4EA1;&#x6545;&#xFF0C;&#x53EF;&#x6307;&#x5B9A;&#x4EA1;&#x6545;&#x65E5;&#x671F;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">&amp;#x75C5;&amp;#x4EBA;&amp;#x6B7B;&amp;#x4EA1;&amp;#x7684;&amp;#x4E8B;&amp;#x5B9E;&amp;#x4F1A;&amp;#x5F71;&amp;#x54CD;&amp;#x4E34;&amp;#x5E8A;&amp;#x7A0B;&amp;#x5E8F;&amp;#x3002;&amp;#x6B64;&amp;#x5916;&amp;#xFF0C;&amp;#x5728;&amp;#x4EBA;&amp;#x9645;&amp;#x6C9F;&amp;#x901A;&amp;#x548C;&amp;#x5173;&amp;#x7CFB;&amp;#x7BA1;&amp;#x7406;&amp;#x4E2D;&amp;#xFF0C;&amp;#x6709;&amp;#x5FC5;&amp;#x8981;&amp;#x77E5;&amp;#x9053;&amp;#x8FD9;&amp;#x4E2A;&amp;#x4EBA;&amp;#x662F;&amp;#x5426;&amp;#x8FD8;&amp;#x6D3B;&amp;#x7740;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x75C5;&#x4EBA;&#x6B7B;&#x4EA1;&#x7684;&#x4E8B;&#x5B9E;&#x4F1A;&#x5F71;&#x54CD;&#x4E34;&#x5E8A;&#x7A0B;&#x5E8F;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x5728;&#x4EBA;&#x9645;&#x6C9F;&#x901A;&#x548C;&#x5173;&#x7CFB;&#x7BA1;&#x7406;&#x4E2D;&#xFF0C;&#x6709;&#x5FC5;&#x8981;&#x77E5;&#x9053;&#x8FD9;&#x4E2A;&#x4EBA;&#x662F;&#x5426;&#x8FD8;&#x6D3B;&#x7740;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x5982;&amp;#x679C;&amp;#x5B9E;&amp;#x4F8B;&amp;#x4E2D;&amp;#x6CA1;&amp;#x6709;&amp;#x503C;&amp;#xFF0C;&amp;#x5219;&amp;#x8868;&amp;#x793A;&amp;#x6CA1;&amp;#x6709;&amp;#x58F0;&amp;#x660E;&amp;#x8BE5;&amp;#x4E2A;&amp;#x4EBA;&amp;#x662F;&amp;#x5426;&amp;#x5DF2;&amp;#x6B7B;&amp;#x4EA1;&amp;#x3002;&amp;#x5927;&amp;#x591A;&amp;#x6570;&amp;#x7CFB;&amp;#x7EDF;&amp;#x90FD;&amp;#x4F1A;&amp;#x9ED8;&amp;#x8BA4;&amp;#x4E3A;&amp;#x672A;&amp;#x6B7B;&amp;#x4EA1;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x5982;&#x679C;&#x5B9E;&#x4F8B;&#x4E2D;&#x6CA1;&#x6709;&#x503C;&#xFF0C;&#x5219;&#x8868;&#x793A;&#x6CA1;&#x6709;&#x58F0;&#x660E;&#x8BE5;&#x4E2A;&#x4EBA;&#x662F;&#x5426;&#x5DF2;&#x6B7B;&#x4EA1;&#x3002;&#x5927;&#x591A;&#x6570;&#x7CFB;&#x7EDF;&#x90FD;&#x4F1A;&#x9ED8;&#x8BA4;&#x4E3A;&#x672A;&#x6B7B;&#x4EA1;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -1968,11 +1968,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x5730;&amp;#x5740;</Data>
+          <Data ss:Type="String">&#x5730;&#x5740;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x4F7F;&amp;#x7528;&amp;#x4E2D;&amp;#x56FD;&amp;#x884C;&amp;#x653F;&amp;#x533A;&amp;#x5212;&amp;#x8868;&amp;#x793A;&amp;#x7684;&amp;#x5730;&amp;#x5740; &amp;#xFF08;&amp;#x975E;GPS&amp;#x6216;&amp;#x7ECF;&amp;#x7EAC;&amp;#x5EA6;&amp;#x5730;&amp;#x5740;&amp;#xFF09;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x4F7F;&#x7528;&#x4E2D;&#x56FD;&#x884C;&#x653F;&#x533A;&#x5212;&#x8868;&#x793A;&#x7684;&#x5730;&#x5740; &#xFF08;&#x975E;GPS&#x6216;&#x7ECF;&#x7EAC;&#x5EA6;&#x5730;&#x5740;&#xFF09;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2063,11 +2063,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x5A5A;&amp;#x59FB;&amp;#x72B6;&amp;#x51B5;</Data>
+          <Data ss:Type="String">&#x5A5A;&#x59FB;&#x72B6;&#x51B5;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x6700;&amp;#x8FD1;&amp;#x7684;&amp;#x5A5A;&amp;#x59FB;&amp;#xFF08;&amp;#x6C11;&amp;#x4E8B;&amp;#xFF09;&amp;#x72B6;&amp;#x6001;&amp;#x3002;GB/T 2261.2</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x6700;&#x8FD1;&#x7684;&#x5A5A;&#x59FB;&#xFF08;&#x6C11;&#x4E8B;&#xFF09;&#x72B6;&#x6001;&#x3002;GB/T 2261.2</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2155,19 +2155,19 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x591A;&amp;#x80DE;&amp;#x80CE;</Data>
+          <Data ss:Type="String">&#x591A;&#x80DE;&#x80CE;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x586B;&amp;#x5199;&amp;#x5E03;&amp;#x5C14;&amp;#x503C;&amp;#x7528;&amp;#x4E8E;&amp;#x8BF4;&amp;#x660E;&amp;#x60A3;&amp;#x8005;&amp;#x662F;&amp;#x5426;&amp;#x4E3A;&amp;#x591A;&amp;#x80DE;&amp;#x80CE;&amp;#x4E2D;&amp;#x7684;&amp;#x4E00;&amp;#x5458;&amp;#xFF1B;&amp;#x586B;&amp;#x5199;&amp;#x6574;&amp;#x6570;&amp;#x503C;&amp;#x5219;&amp;#x8868;&amp;#x660E;&amp;#x60A3;&amp;#x8005;&amp;#x5728;&amp;#x591A;&amp;#x80DE;&amp;#x80CE;&amp;#x4E2D;&amp;#x7684;&amp;#x5B9E;&amp;#x9645;&amp;#x51FA;&amp;#x751F;&amp;#x987A;&amp;#x5E8F;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x586B;&#x5199;&#x5E03;&#x5C14;&#x503C;&#x7528;&#x4E8E;&#x8BF4;&#x660E;&#x60A3;&#x8005;&#x662F;&#x5426;&#x4E3A;&#x591A;&#x80DE;&#x80CE;&#x4E2D;&#x7684;&#x4E00;&#x5458;&#xFF1B;&#x586B;&#x5199;&#x6574;&#x6570;&#x503C;&#x5219;&#x8868;&#x660E;&#x60A3;&#x8005;&#x5728;&#x591A;&#x80DE;&#x80CE;&#x4E2D;&#x7684;&#x5B9E;&#x9645;&#x51FA;&#x751F;&#x987A;&#x5E8F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">&amp;#x7528;&amp;#x4E8E;&amp;#x6392;&amp;#x9664;&amp;#x591A;&amp;#x80DE;&amp;#x80CE;&amp;#x7684;&amp;#x6B67;&amp;#x4E49;&amp;#xFF0C;&amp;#x7279;&amp;#x522B;&amp;#x662F;&amp;#x5728;&amp;#x533B;&amp;#x62A4;&amp;#x4EBA;&amp;#x5458;&amp;#x672A;&amp;#x80FD;&amp;#x4E0E;&amp;#x60A3;&amp;#x8005;&amp;#x89C1;&amp;#x9762;&amp;#x7684;&amp;#x65F6;&amp;#xFF0C;&amp;#x53EF;&amp;#x4F7F;&amp;#x7528;&amp;#x6B64;&amp;#x5B57;&amp;#x6BB5;&amp;#x786E;&amp;#x5B9A;&amp;#x957F;&amp;#x5E7C;&amp;#x987A;&amp;#x5E8F;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x7528;&#x4E8E;&#x6392;&#x9664;&#x591A;&#x80DE;&#x80CE;&#x7684;&#x6B67;&#x4E49;&#xFF0C;&#x7279;&#x522B;&#x662F;&#x5728;&#x533B;&#x62A4;&#x4EBA;&#x5458;&#x672A;&#x80FD;&#x4E0E;&#x60A3;&#x8005;&#x89C1;&#x9762;&#x7684;&#x65F6;&#xFF0C;&#x53EF;&#x4F7F;&#x7528;&#x6B64;&#x5B57;&#x6BB5;&#x786E;&#x5B9A;&#x957F;&#x5E7C;&#x987A;&#x5E8F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x586B;&amp;#x5199;&amp;#x6574;&amp;#x6570;&amp;#x503C;&amp;#xFF0C;&amp;#x8868;&amp;#x793A;&amp;#x7684;&amp;#x662F;&amp;#x60A3;&amp;#x8005;&amp;#x5728;&amp;#x591A;&amp;#x80DE;&amp;#x80CE;&amp;#x4E2D;&amp;#x7684;&amp;#x5B9E;&amp;#x9645;&amp;#x51FA;&amp;#x751F;&amp;#x987A;&amp;#x5E8F;&amp;#x7F16;&amp;#x53F7;&amp;#x3002;&amp;#x4F8B;&amp;#x5982;&amp;#xFF0C;&amp;#x4E09;&amp;#x80DE;&amp;#x80CE;&amp;#x4E2D;&amp;#x7B2C;2&amp;#x4E2A;&amp;#x51FA;&amp;#x751F;&amp;#x8005;&amp;#x4E3A;valueInteger=2&amp;#xFF0C;&amp;#x7B2C;&amp;#x4E09;&amp;#x4E2A;&amp;#x51FA;&amp;#x751F;&amp;#x8005;&amp;#x4E3A;valueInteger=3&amp;#x3002;&amp;#x5982;&amp;#x679C;&amp;#x7528;&amp;#x5E03;&amp;#x5C14;&amp;#x503C;&amp;#x586B;&amp;#x5199;&amp;#xFF0C;&amp;#x5219;3&amp;#x4E2A;&amp;#x60A3;&amp;#x8005;&amp;#x7684;&amp;#x6B64;&amp;#x5143;&amp;#x7D20;&amp;#x90FD;&amp;#x5E94;&amp;#x8BE5;&amp;#x586B;&amp;#x5199;value boolean=true&amp;#xFF08;&amp;#x672A;&amp;#x6307;&amp;#x660E;&amp;#x987A;&amp;#x5E8F;&amp;#xFF09;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x586B;&#x5199;&#x6574;&#x6570;&#x503C;&#xFF0C;&#x8868;&#x793A;&#x7684;&#x662F;&#x60A3;&#x8005;&#x5728;&#x591A;&#x80DE;&#x80CE;&#x4E2D;&#x7684;&#x5B9E;&#x9645;&#x51FA;&#x751F;&#x987A;&#x5E8F;&#x7F16;&#x53F7;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x4E09;&#x80DE;&#x80CE;&#x4E2D;&#x7B2C;2&#x4E2A;&#x51FA;&#x751F;&#x8005;&#x4E3A;valueInteger=2&#xFF0C;&#x7B2C;&#x4E09;&#x4E2A;&#x51FA;&#x751F;&#x8005;&#x4E3A;valueInteger=3&#x3002;&#x5982;&#x679C;&#x7528;&#x5E03;&#x5C14;&#x503C;&#x586B;&#x5199;&#xFF0C;&#x5219;3&#x4E2A;&#x60A3;&#x8005;&#x7684;&#x6B64;&#x5143;&#x7D20;&#x90FD;&#x5E94;&#x8BE5;&#x586B;&#x5199;value boolean=true&#xFF08;&#x672A;&#x6307;&#x660E;&#x987A;&#x5E8F;&#xFF09;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2248,19 +2248,19 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x7167;&amp;#x7247;</Data>
+          <Data ss:Type="String">&#x7167;&#x7247;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x7684;&amp;#x7167;&amp;#x7247;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x7684;&#x7167;&#x7247;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">&amp;#x5EFA;&amp;#x8BAE;&amp;#x4F7F;&amp;#x7528;&amp;#x5B58;&amp;#x50A8;&amp;#x5728;&amp;#x8EAB;&amp;#x4EFD;&amp;#x8BC1;&amp;#x3001;&amp;#x5C45;&amp;#x6C11;&amp;#x5065;&amp;#x5EB7;&amp;#x5361;&amp;#x6216;&amp;#x533B;&amp;#x4FDD;&amp;#x5361;&amp;#x7684;&amp;#x7167;&amp;#x7247;</Data>
+          <Data ss:Type="String">&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x5B58;&#x50A8;&#x5728;&#x8EAB;&#x4EFD;&#x8BC1;&#x3001;&#x5C45;&#x6C11;&#x5065;&#x5EB7;&#x5361;&#x6216;&#x533B;&#x4FDD;&#x5361;&#x7684;&#x7167;&#x7247;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x6307;&amp;#x5357;: * &amp;#x4F7F;&amp;#x7528;&amp;#x8BC1;&amp;#x4EF6;&amp;#x7167;&amp;#x800C;&amp;#x975E;&amp;#x4E34;&amp;#x5E8A;&amp;#x7167;&amp;#x7247;. * &amp;#x5C06;&amp;#x5C3A;&amp;#x5BF8;&amp;#x9650;&amp;#x5236;&amp;#x4E3A;&amp;#x7F29;&amp;#x7565;&amp;#x56FE;. * &amp;#x5C3D;&amp;#x91CF;&amp;#x9650;&amp;#x5236;&amp;#x56FE;&amp;#x50CF;&amp;#x6240;&amp;#x5360;&amp;#x7528;&amp;#x7684;&amp;#x5B58;&amp;#x50A8;&amp;#x5927;&amp;#x5C0F;&amp;#x4EE5;&amp;#x4FBF;&amp;#x8D44;&amp;#x6E90;&amp;#x66F4;&amp;#x65B0;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x6307;&#x5357;: * &#x4F7F;&#x7528;&#x8BC1;&#x4EF6;&#x7167;&#x800C;&#x975E;&#x4E34;&#x5E8A;&#x7167;&#x7247;. * &#x5C06;&#x5C3A;&#x5BF8;&#x9650;&#x5236;&#x4E3A;&#x7F29;&#x7565;&#x56FE;. * &#x5C3D;&#x91CF;&#x9650;&#x5236;&#x56FE;&#x50CF;&#x6240;&#x5360;&#x7528;&#x7684;&#x5B58;&#x50A8;&#x5927;&#x5C0F;&#x4EE5;&#x4FBF;&#x8D44;&#x6E90;&#x66F4;&#x65B0;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2342,11 +2342,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x53EF;&amp;#x4EE5;&amp;#x8054;&amp;#x7CFB;&amp;#x5230;&amp;#x60A3;&amp;#x8005;&amp;#x7684;&amp;#x5176;&amp;#x5B83;&amp;#x4EBA;&amp;#xFF0C;&amp;#x5982;&amp;#x7D27;&amp;#x6025;&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x3001;&amp;#x914D;&amp;#x5076;&amp;#x3001;&amp;#x4EB2;&amp;#x5C5E;&amp;#x3001;&amp;#x670B;&amp;#x53CB;&amp;#x3001;&amp;#x62C5;&amp;#x4FDD;&amp;#x4EBA;&amp;#x7B49;</Data>
+          <Data ss:Type="String">&#x53EF;&#x4EE5;&#x8054;&#x7CFB;&#x5230;&#x60A3;&#x8005;&#x7684;&#x5176;&#x5B83;&#x4EBA;&#xFF0C;&#x5982;&#x7D27;&#x6025;&#x8054;&#x7CFB;&#x4EBA;&#x3001;&#x914D;&#x5076;&#x3001;&#x4EB2;&#x5C5E;&#x3001;&#x670B;&#x53CB;&#x3001;&#x62C5;&#x4FDD;&#x4EBA;&#x7B49;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2354,7 +2354,7 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x5305;&amp;#x62EC;&amp;#x5404;&amp;#x79CD;&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#xFF1A;&amp;#x5BB6;&amp;#x5EAD;&amp;#x6210;&amp;#x5458;&amp;#x3001;&amp;#x4E1A;&amp;#x52A1;&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x3001;&amp;#x76D1;&amp;#x62A4;&amp;#x4EBA;&amp;#x3001;&amp;#x7167;&amp;#x62A4;&amp;#x4EBA;&amp;#x5458;&amp;#x3002;&amp;#x4E0D;&amp;#x9002;&amp;#x7528;&amp;#x4E8E;&amp;#x767B;&amp;#x8BB0;&amp;#x8840;&amp;#x7EDF;&amp;#x548C;&amp;#x5BB6;&amp;#x5EAD;&amp;#x5173;&amp;#x7CFB;&amp;#x4EE5;&amp;#x5916;&amp;#x7684;&amp;#x4F7F;&amp;#x7528;&amp;#x6709;&amp;#x8054;&amp;#x7CFB;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x5305;&#x62EC;&#x5404;&#x79CD;&#x8054;&#x7CFB;&#x4EBA;&#xFF1A;&#x5BB6;&#x5EAD;&#x6210;&#x5458;&#x3001;&#x4E1A;&#x52A1;&#x8054;&#x7CFB;&#x4EBA;&#x3001;&#x76D1;&#x62A4;&#x4EBA;&#x3001;&#x7167;&#x62A4;&#x4EBA;&#x5458;&#x3002;&#x4E0D;&#x9002;&#x7528;&#x4E8E;&#x767B;&#x8BB0;&#x8840;&#x7EDF;&#x548C;&#x5BB6;&#x5EAD;&#x5173;&#x7CFB;&#x4EE5;&#x5916;&#x7684;&#x4F7F;&#x7528;&#x6709;&#x8054;&#x7CFB;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2436,11 +2436,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x5173;&amp;#x7CFB;</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x5173;&#x7CFB;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x4E0E;&amp;#x6B64;&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x7684;&amp;#x5173;&amp;#x7CFB;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x4E0E;&#x6B64;&#x8054;&#x7CFB;&#x4EBA;&#x7684;&#x5173;&#x7CFB;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2528,11 +2528,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x59D3;&amp;#x540D;</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x59D3;&#x540D;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x59D3;&amp;#x540D;</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x59D3;&#x540D;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2620,11 +2620,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x7535;&amp;#x8BDD;&amp;#x53F7;&amp;#x7801;</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x7535;&#x8BDD;&#x53F7;&#x7801;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x7535;&amp;#x8BDD;&amp;#x53F7;&amp;#x7801;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;&amp;#x624B;&amp;#x673A;&amp;#x6216;&amp;#x5EA7;&amp;#x673A;.</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x7535;&#x8BDD;&#x53F7;&#x7801;&#xFF0C;&#x5305;&#x62EC;&#x624B;&#x673A;&#x6216;&#x5EA7;&#x673A;.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2713,11 +2713,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x5730;&amp;#x5740;</Data>
+          <Data ss:Type="String">&#x5730;&#x5740;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x4F7F;&amp;#x7528;&amp;#x4E2D;&amp;#x56FD;&amp;#x884C;&amp;#x653F;&amp;#x533A;&amp;#x5212;&amp;#x8868;&amp;#x793A;&amp;#x7684;&amp;#x5730;&amp;#x5740; &amp;#xFF08;&amp;#x975E;GPS&amp;#x6216;&amp;#x7ECF;&amp;#x7EAC;&amp;#x5EA6;&amp;#x5730;&amp;#x5740;&amp;#xFF09;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x4F7F;&#x7528;&#x4E2D;&#x56FD;&#x884C;&#x653F;&#x533A;&#x5212;&#x8868;&#x793A;&#x7684;&#x5730;&#x5740; &#xFF08;&#x975E;GPS&#x6216;&#x7ECF;&#x7EAC;&#x5EA6;&#x5730;&#x5740;&#xFF09;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2806,11 +2806,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x6027; &amp;#x522B;</Data>
+          <Data ss:Type="String">&#x6027; &#x522B;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x751F;&amp;#x7406; &amp;#x6027;&amp;#x522B; GB/T 2261.1</Data>
+          <Data ss:Type="String">&#x751F;&#x7406; &#x6027;&#x522B; GB/T 2261.1</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2899,11 +2899,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x4E0E;&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x76F8;&amp;#x5173;&amp;#x7684;&amp;#x7EC4;&amp;#x7EC7;</Data>
+          <Data ss:Type="String">&#x4E0E;&#x8054;&#x7CFB;&#x4EBA;&#x76F8;&#x5173;&#x7684;&#x7EC4;&#x7EC7;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x6240;&amp;#x4EE3;&amp;#x8868;&amp;#x7684;&amp;#x7EC4;&amp;#x7EC7;&amp;#x6216;&amp;#x8054;&amp;#x7CFB;&amp;#x4EBA;&amp;#x5DE5;&amp;#x4F5C;&amp;#x7684;&amp;#x7EC4;&amp;#x7EC7;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x8054;&#x7CFB;&#x4EBA;&#x6240;&#x4EE3;&#x8868;&#x7684;&#x7EC4;&#x7EC7;&#x6216;&#x8054;&#x7CFB;&#x4EBA;&#x5DE5;&#x4F5C;&#x7684;&#x7EC4;&#x7EC7;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -2991,11 +2991,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x65F6;&amp;#x6BB5;&amp;#x8303;&amp;#x56F4;</Data>
+          <Data ss:Type="String">&#x65F6;&#x6BB5;&#x8303;&#x56F4;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x7531;&amp;#x5F00;&amp;#x59CB;&amp;#x548C;&amp;#x7ED3;&amp;#x675F;&amp;#x65F6;&amp;#x95F4;&amp;#x4EE5;&amp;#x53CA;&amp;#x53EF;&amp;#x9009;&amp;#x65F6;&amp;#x95F4;&amp;#x5B9A;&amp;#x4E49;&amp;#x7684;&amp;#x65F6;&amp;#x95F4;&amp;#x6BB5;&amp;#x8303;&amp;#x56F4;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x7531;&#x5F00;&#x59CB;&#x548C;&#x7ED3;&#x675F;&#x65F6;&#x95F4;&#x4EE5;&#x53CA;&#x53EF;&#x9009;&#x65F6;&#x95F4;&#x5B9A;&#x4E49;&#x7684;&#x65F6;&#x95F4;&#x6BB5;&#x8303;&#x56F4;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4027,11 +4027,11 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">Patient&amp;#x27;s nominated primary care provider</Data>
+          <Data ss:Type="String">Patient&#x27;s nominated primary care provider</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x60A3;&amp;#x8005;&amp;#x63D0;&amp;#x540D;&amp;#x7684;&amp;#x521D;&amp;#x8BCA;&amp;#x63D0;&amp;#x4F9B;&amp;#x8005;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x63D0;&#x540D;&#x7684;&#x521D;&#x8BCA;&#x63D0;&#x4F9B;&#x8005;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4121,11 +4121,11 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x7BA1;&amp;#x7406;&amp;#x673A;&amp;#x6784;</Data>
+          <Data ss:Type="String">&#x7BA1;&#x7406;&#x673A;&#x6784;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x4FDD;&amp;#x7BA1;&amp;#x6B64;&amp;#x60A3;&amp;#x8005;&amp;#x75C5;&amp;#x5386;&amp;#x7684;&amp;#x7EC4;&amp;#x7EC7;&amp;#x673A;&amp;#x6784;</Data>
+          <Data ss:Type="String">&#x4FDD;&#x7BA1;&#x6B64;&#x60A3;&#x8005;&#x75C5;&#x5386;&#x7684;&#x7EC4;&#x7EC7;&#x673A;&#x6784;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4215,19 +4215,19 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x5173;&amp;#x8054;&amp;#x4EBA;</Data>
+          <Data ss:Type="String">&#x5173;&#x8054;&#x4EBA;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x94FE;&amp;#x63A5;&amp;#x5230;&amp;#x4E0E;&amp;#x6B64;&amp;#x60A3;&amp;#x8005;&amp;#x76F8;&amp;#x5173;&amp;#x7684;&amp;#x53E6;&amp;#x4E00;&amp;#x4E2A;&amp;#x60A3;&amp;#x8005;&amp;#x8D44;&amp;#x6E90;&amp;#x6216;&amp;#x76F8;&amp;#x5173;&amp;#x4EBA;&amp;#x5458;</Data>
+          <Data ss:Type="String">&#x94FE;&#x63A5;&#x5230;&#x4E0E;&#x6B64;&#x60A3;&#x8005;&#x76F8;&#x5173;&#x7684;&#x53E6;&#x4E00;&#x4E2A;&#x60A3;&#x8005;&#x8D44;&#x6E90;&#x6216;&#x76F8;&#x5173;&#x4EBA;&#x5458;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
-          <Data ss:Type="String">&amp;#x4E24;&amp;#x4E2A;&amp;#x7528;&amp;#x9014;&amp;#xFF1A; 1&amp;#x3001;&amp;#x94FE;&amp;#x63A5;&amp;#x6CA1;&amp;#x6709;&amp;#x53CA;&amp;#x65F6;&amp;#x53D1;&amp;#x73B0;&amp;#x7684;&amp;#x91CD;&amp;#x590D;&amp;#x60A3;&amp;#x8005;&amp;#x8BB0;&amp;#x5F55; 2&amp;#x3001;&amp;#x94FE;&amp;#x63A5;&amp;#x5206;&amp;#x5E03;&amp;#x5F0F;&amp;#x670D;&amp;#x52A1;&amp;#x5668;&amp;#x4E0A;&amp;#x7684;&amp;#x76F8;&amp;#x5173;&amp;#x60A3;&amp;#x8005;&amp;#x4FE1;&amp;#x606F;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x4E24;&#x4E2A;&#x7528;&#x9014;&#xFF1A; 1&#x3001;&#x94FE;&#x63A5;&#x6CA1;&#x6709;&#x53CA;&#x65F6;&#x53D1;&#x73B0;&#x7684;&#x91CD;&#x590D;&#x60A3;&#x8005;&#x8BB0;&#x5F55; 2&#x3001;&#x94FE;&#x63A5;&#x5206;&#x5E03;&#x5F0F;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#x76F8;&#x5173;&#x60A3;&#x8005;&#x4FE1;&#x606F;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x94FE;&amp;#x63A5;&amp;#x7684;&amp;#x60A3;&amp;#x8005;&amp;#x8BB0;&amp;#x5F55;&amp;#x4E0D;&amp;#x4E00;&amp;#x5B9A;&amp;#x662F;&amp;#x76F8;&amp;#x4E92;&amp;#x94FE;&amp;#x63A5;&amp;#x7684;&amp;#x3002;</Data>
+          <Data ss:Type="String">&#x94FE;&#x63A5;&#x7684;&#x60A3;&#x8005;&#x8BB0;&#x5F55;&#x4E0D;&#x4E00;&#x5B9A;&#x662F;&#x76F8;&#x4E92;&#x94FE;&#x63A5;&#x7684;&#x3002;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4309,18 +4309,18 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x5173;&amp;#x8054;&amp;#x8BB0;&amp;#x5F55;</Data>
+          <Data ss:Type="String">&#x5173;&#x8054;&#x8BB0;&#x5F55;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x94FE;&amp;#x63A5;&amp;#x6240;&amp;#x6307;&amp;#x5411;&amp;#x7684;&amp;#x5176;&amp;#x4ED6;&amp;#x76F8;&amp;#x5173;&amp;#x60A3;&amp;#x8005;&amp;#x8D44;&amp;#x6E90;</Data>
+          <Data ss:Type="String">&#x94FE;&#x63A5;&#x6240;&#x6307;&#x5411;&#x7684;&#x5176;&#x4ED6;&#x76F8;&#x5173;&#x60A3;&#x8005;&#x8D44;&#x6E90;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x4EC5;&amp;#x7528;&amp;#x4E8E;&amp;#x5173;&amp;#x8054;&amp;#x7591;&amp;#x4F3C;&amp;#x540C;&amp;#x4E00;&amp;#x60A3;&amp;#x8005;&amp;#x7684;&amp;#x8BB0;&amp;#x5F55;&amp;#x3002;&amp;#x53BB;&amp;#x6389;&amp;#x4E86;&amp;#x5BF9;&amp;#x76F8;&amp;#x5173;&amp;#x4EBA;&amp;#x8D44;&amp;#x6E90;(RelatedPerson)&amp;#x7684;&amp;#x94FE;&amp;#x63A5;</Data>
+          <Data ss:Type="String">&#x4EC5;&#x7528;&#x4E8E;&#x5173;&#x8054;&#x7591;&#x4F3C;&#x540C;&#x4E00;&#x60A3;&#x8005;&#x7684;&#x8BB0;&#x5F55;&#x3002;&#x53BB;&#x6389;&#x4E86;&#x5BF9;&#x76F8;&#x5173;&#x4EBA;&#x8D44;&#x6E90;(RelatedPerson)&#x7684;&#x94FE;&#x63A5;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
@@ -4406,11 +4406,11 @@ The absence of the animal element does not imply that the patient is a human. If
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&amp;#x5173;&amp;#x7CFB;&amp;#x7C7B;&amp;#x522B;</Data>
+          <Data ss:Type="String">&#x5173;&#x7CFB;&#x7C7B;&#x522B;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&amp;#x6B64;&amp;#x60A3;&amp;#x8005;&amp;#x4E0E;&amp;#x53E6;&amp;#x4E00;&amp;#x60A3;&amp;#x8005;&amp;#x8D44;&amp;#x6E90;&amp;#x4E4B;&amp;#x95F4;&amp;#x7684;&amp;#x5173;&amp;#x7CFB;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;&amp;#x88AB;&amp;#x66FF;&amp;#x4EE3;&amp;#x3001;&amp;#x66FF;&amp;#x4EE3;&amp;#x3001;&amp;#x5F15;&amp;#x7528;&amp;#x3001;&amp;#x53C2;&amp;#x89C1;&amp;#xFF08;replaced-by | replaces | refer | seealso&amp;#xFF09;</Data>
+          <Data ss:Type="String">&#x6B64;&#x60A3;&#x8005;&#x4E0E;&#x53E6;&#x4E00;&#x60A3;&#x8005;&#x8D44;&#x6E90;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x5305;&#x62EC;&#x88AB;&#x66FF;&#x4EE3;&#x3001;&#x66FF;&#x4EE3;&#x3001;&#x5F15;&#x7528;&#x3001;&#x53C2;&#x89C1;&#xFF08;replaced-by | replaces | refer | seealso&#xFF09;</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
