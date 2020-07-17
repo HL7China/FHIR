@@ -1681,11 +1681,11 @@
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s87">
-          <Data ss:Type="String">&#x51FA;&#x751F;&#x65E5;&#x671F;</Data>
+          <Data ss:Type="String">&#x51FA;&#x751F;&#x65E5;&#x671F;.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s89">
-          <Data ss:Type="String">&#x60A3;&#x8005;&#x7684;&#x51FA;&#x751F;&#x5E74;&#x6708;&#x65E5;</Data>
+          <Data ss:Type="String">&#x60A3;&#x8005;&#x7684;&#x51FA;&#x751F;&#x5E74;&#x6708;&#x65E5;.</Data>
           <NamedCell ss:Name="_FilterDatabase" />
         </Cell>
         <Cell ss:StyleID="s88">
