@@ -38,7 +38,7 @@ public class ResourceDependencyGenerator  extends BaseGenerator {
   private String fmm;
   
   public ResourceDependencyGenerator(String dest, PageProcessor page, String pageName, boolean inlineGraphics, String fmm, StandardsStatus sstatus) throws Exception {
-    super();
+    super(out, "UTF-8");
     this.dest = dest;
     this.definitions = page.getDefinitions();
     this.page = page;

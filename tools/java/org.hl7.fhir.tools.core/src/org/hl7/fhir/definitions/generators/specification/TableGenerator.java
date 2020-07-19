@@ -33,7 +33,7 @@ public class TableGenerator extends BaseGenerator {
   protected boolean inlineGraphics;
   
   public TableGenerator(String dest, PageProcessor page, String pageName, boolean inlineGraphics) throws Exception {
-    super();
+    super(out, "UTF-8");
     this.dest = dest;
     this.definitions = page.getDefinitions();
     this.page = page;
