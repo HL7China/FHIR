@@ -18,7 +18,7 @@ public class XPathQueryGenerator {
   private QaTracker qa;
 
   public XPathQueryGenerator(Definitions definitions, Logger log, QaTracker qa) {
-    super(out, "UTF-8");
+    super();
     this.definitions = definitions;
     this.log = log;
     this.qa = qa;

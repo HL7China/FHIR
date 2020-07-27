@@ -174,7 +174,7 @@ public class ProfileGenerator {
   }
 
   public ProfileGenerator(Definitions definitions, BuildWorkerContext context, ProfileKnowledgeProvider pkp, Calendar genDate, FHIRVersion version, Bundle dataElements, List<FHIRPathUsage> fpUsages, String rootFolder, UMLModel uml, RenderingContext rc) throws FHIRException {
-    super(out, "UTF-8");
+    super();
     this.definitions = definitions;
     this.context = context;
     this.pkp = pkp;
