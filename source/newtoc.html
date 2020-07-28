@@ -1,0 +1,831 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+    <title>目录表 - HL7 FHIR 中国</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="Prev" href="http://hl7.org/fhir/toc.html"/>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.css"/>
+    <link rel="stylesheet" href="./assets/css/bootstrap-fhir.css"/>
+
+    <!-- Project extras -->
+    <link rel="stylesheet" href="./assets/css/project.css"/>
+    <link rel="stylesheet" href="./assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="jquery-ui.css"/>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- [if lt IE 9]>
+    <script src="./assets/js/html5shiv.js"></script>
+    <script src="./assets/js/respond.min.js"></script>
+    <![endif] -->
+
+    <!-- Favicons -->
+    <link sizes="144x144" rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link sizes="114x114" rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link sizes="72x72" rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="./assets/ico/favicon.png"/>
+
+    <link rel="stylesheet" href="ztreeCss/demo.css" type="text/css">
+    <link rel="stylesheet" href="ztreeCss/zTreeStyle/zTreeStyle.css" type="text/css">
+    <script type="text/javascript" src="ztreeJs/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript" src="ztreeJs/jquery.ztree.core.js"></script>
+    <script type="text/javascript" src="ztreeJs/ztreeData.js"></script>
+
+    <SCRIPT type="text/javascript">
+        <!--
+        var setting = {
+            data: {
+                simpleData: {
+                    enable: true
+                }
+            },
+            view: {
+                addDiyDom: addDiyDom,
+                txtSelectedEnable: true
+            }
+        };
+        IDMark_A = "_a";
+
+
+        function addDiyDom(treeId, treeNode) {
+            if (treeNode.parentNode && treeNode.parentNode.id != 2) return;
+            var aObj = $("#" + treeNode.tId + IDMark_A);
+            if (treeNode.subtitle) {
+                let editStr = "<span class='diyBtn_subtitle'>" + treeNode.subtitle + "</span>";
+                aObj.after(editStr);
+            }
+            if (treeNode.fineTitle) {
+                let editStr = "<span class='diyBtn_subtitle'>" + treeNode.fineTitle + "</span>";
+                aObj.after(editStr);
+            }
+            if (treeNode.thickTitle) {
+                let editStr = "<span class='diyBtn_thickTitle'>" + treeNode.thickTitle + "</span>";
+                aObj.after(editStr);
+            }
+        }
+
+        $(document).ready(function () {
+            $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+        });
+        //-->
+    </SCRIPT>
+    <style type="text/css">
+        .ztree ul{
+            width: 100%;
+        }
+        .ztree li span.button.pIcon01_ico_open {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon-page.png) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        .ztree li span.button.pIcon01_ico_close {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon-page.png) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        .ztree li span.button.pIcon01_ico_docu {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon-page.png) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        .ztree li span.button.icon01_ico_open {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon_page_n.gif) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        .ztree li span.button.icon01_ico_close {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon_page_n.gif) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        .ztree li span.button.icon01_ico_docu {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon_page_n.gif) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        .ztree li span.button.icon02_ico_open {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon-page-update.png) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        .ztree li span.button.icon02_ico_close {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon-page-update.png) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        .ztree li span.button.icon02_ico_docu {
+            margin-right: 2px;
+            background: url(ztreeCss/zTreeStyle/img/diy/icon-page-update.png) no-repeat scroll 0 0 transparent;
+            vertical-align: top;
+            *vertical-align: middle
+        }
+
+        a span:nth-child(2) {
+            color: #428BCA;
+        }
+
+        .diyBtn_subtitle {
+            color: #4e4e4e;
+            margin-left: 5px;
+        }
+
+        .diyBtn_thickTitle {
+            font-weight: bold;
+            margin-left: 5px;
+        }
+
+        a span:nth-child(2):hover {
+            color: #2A6496;
+        }
+
+        .chose {
+            /*color: #2A6496;*/
+            /*background: #ddd;*/
+        }
+
+        .radioImg {
+            /*cursor: pointer;*/
+        }
+
+        .specification li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .left_panel {
+            margin-right: 50px;
+        }
+
+        /*复选框*/
+        .label_box {
+            width: calc(100% - 300px);
+            display: inline-block;
+            margin-left: 20px;
+            margin-top: -12px;
+        }
+
+        .label_box > label {
+            display: block;
+            float: left;
+            margin: 8px 30px 15px 0;
+            position: relative;
+            /*overflow: hidden;*/
+        }
+
+        .label_box > label > input {
+            position: absolute;
+            top: -3px;
+            left: 5px;
+        }
+
+        .label_box > label > div {
+            width: 60px;
+            text-align: center;
+            border: #dddddd solid 1px;
+            height: 30px;
+            font-size: 12px;
+            font-family: verdana;
+            line-height: 30px;
+            color: #666666;
+            user-select: none;
+            overflow: hidden;
+            position: relative;
+            background: #fff;
+            cursor: pointer;
+        }
+
+        .label_box > label > input:checked + div {
+            border: 1px solid #d51917;
+            color: #606266;
+        }
+
+        .label_box > label > input:checked + div:after {
+            content: '';
+            display: block;
+            width: 10px;
+            height: 10px;
+            background-color: #d51917;
+            transform: skewY(-45deg);
+            position: absolute;
+            bottom: -10px;
+            right: 0;
+            z-index: 1;
+        }
+
+        .label_box > label > input:checked + div:before {
+            content: '';
+            display: block;
+            width: 1.5px;
+            height: 4px;
+            border-right: #ffffff solid 1px;
+            border-bottom: #ffffff solid 1px;
+            transform: rotate(35deg);
+            position: absolute;
+            bottom: 2px;
+            right: 4px;
+            z-index: 2;
+        }
+
+        .label_box > label > input:checked:after {
+            content: attr(data-before);
+            padding: 0 6px;
+            position: absolute;
+            text-align: center;
+            display: block;
+            font-size: 12px;
+            pointer-events: none;
+            background-color: #f56c6c;
+            border-radius: 10px;
+            color: #fff;
+            left: 38px;
+            bottom: 5px;
+            z-index: 999;
+        }
+    </style>
+
+</head>
+<body>
+<div id="segment-header" class="segment"></div>  <!-- /segment-header -->
+
+
+<div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+    <div id="stripe"></div>
+    <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button"
+                        class="navbar-toggle">
+                    <span class="icon-bar"> </span>
+                    <span class="icon-bar"> </span>
+                    <span class="icon-bar"> </span>
+                </button>
+                <a href="index.html" class="navbar-brand hidden">FHIR</a>
+                <div class="nav-collapse collapse navbar-inverse-collapse" id="nav-content"></div>
+                <!-- /.nav-collapse -->
+            </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+
+        <!-- /HEADER CONTENT -->
+    </div>  <!-- /container -->
+</div>  <!-- /segment-navbar -->
+
+
+<div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+    <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+            <li><b>注意</b>：<br/>1.以下目录中仅有英文标题的是还没开始翻译的内容。本站将持续对本目录包含的主题进行翻译。
+                <br/>
+                2.对已经开始翻译的主题会在原标题后提供中文标题，整个主题翻译完成后会将标题加粗。
+                <br/>
+                3.若有勘误或补充内容会在括号里简要说明。
+            </li>
+
+            <!-- toc.html / page / -->
+
+        </ul>
+    </div>  <!-- /container -->
+</div>  <!-- /segment-breadcrumb -->
+
+
+<div id="segment-content" class="segment">  <!-- segment-content -->
+    <div class="container">  <!-- container -->
+        <div class="row">
+            <div class="inner-wrapper">
+                <!-- CONTENT CONTENT -->
+
+
+                <div class="col-12">
+
+                    <!--<h2 class="self-link-parent"><span class="sectioncount">1.0<a name="1.0"> </a></span> 完整目录内容 <a-->
+                    <!--href="toc.html#1.0" title="link to here" class="self-link">-->
+                    <!--<svg viewBox="0 0 1792 1792" width="20" class="self-link" height="20">-->
+                    <!--<path d="M1520 1216q0-40-28-68l-208-208q-28-28-68-28-42 0-72 32 3 3 19 18.5t21.5 21.5 15 19 13 25.5 3.5 27.5q0 40-28 68t-68 28q-15 0-27.5-3.5t-25.5-13-19-15-21.5-21.5-18.5-19q-33 31-33 73 0 40 28 68l206 207q27 27 68 27 40 0 68-26l147-146q28-28 28-67zm-703-705q0-40-28-68l-206-207q-28-28-68-28-39 0-68 27l-147 146q-28 28-28 67 0 40 28 68l208 208q27 27 68 27 42 0 72-31-3-3-19-18.5t-21.5-21.5-15-19-13-25.5-3.5-27.5q0-40 28-68t68-28q15 0 27.5 3.5t25.5 13 19 15 21.5 21.5 18.5 19q33-31 33-73zm895 705q0 120-85 203l-147 146q-83 83-203 83-121 0-204-85l-206-207q-83-83-83-203 0-123 88-209l-88-88q-86 88-208 88-120 0-204-84l-208-208q-84-84-84-204t85-203l147-146q83-83 203-83 121 0 204 85l206 207q83 83 83 203 0 123-88 209l88 88q86-88 208-88 120 0 204 84l208 208q84 84 84 204z"-->
+                    <!--fill="navy"></path>-->
+                    <!--</svg>-->
+                    <!--</a></h2>-->
+
+                    <!--<table class="colsi">-->
+                    <!--<tbody>-->
+                    <!--<tr>-->
+                    <!--<td id="wg"><a href="http://www.hl7.org/Special/committees/fiwg/index.cfm" _target="blank">-->
+                    <!--FHIR Infrastructure <img src="external.png" style="text-align: baseline"/></a> Work-->
+                    <!--Group-->
+                    <!--</td>-->
+                    <!--<td id="fmm"><a href="versions.html#maturity">成熟度</a>: N/A</td>-->
+                    <!--<td id="ballot"><a href="versions.html#std-process">标准状态</a>:-->
+                    <!--&lt;!&ndash; !ns! &ndash;&gt;<a href="versions.html#std-process">Informative(信息)</a></td>-->
+                    <!--</tr>-->
+                    <!--</tbody>-->
+                    <!--</table>-->
+
+                    <div class="left_panel">
+                        <p>
+                            FHIR规范还在不断完善中，下表中每项内容标记的颜色代表其成熟度：
+                        </p>
+                        <ul class="specification">
+                            <li class="radioImg" icon="icon01"><img src="icon_page_n.gif"/>: 正式规范</li>
+                            <li class="radioImg" icon="pIcon01"><img src="icon-page.png"/>: 非正式 (试用, 外部信息)</li>
+                            <!--<li class="radioImg" icon="icon02"><img src="icon-page-update.png"/>: 修改 (试用, 外部信息)</li>-->
+                        </ul>
+                    </div>
+                    <div style="display: flex">
+                        <div style="margin-left:10px;margin-bottom: 10px;width: 280px">
+                            <input type="text" id="search" placeholder="输入关键字">
+                            <button id="searchBtn">搜索</button>
+                        </div>
+                        <div class="label_box" style="width: 450px">
+                            <label style="font-size: 14px; font-family: verdana;font-weight: normal">
+                                筛选:
+                            </label>
+                            <label>
+                                <input type="checkbox" name="hobby">
+                                <div value="fineTitle">翻译</div>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="hobby">
+                                <div value="thickTitle">完成</div>
+                            </label>
+                            <label>
+                                <input type="checkbox" name="hobby">
+                                <div value="subtitle">勘误</div>
+                            </label>
+                        </div>
+                        <div style="text-align: center">
+                            <button style="width: 80px;height: 30px"><a href="toc.html">完整目录</a></button>
+                        </div>
+                    </div>
+                    <div>
+                        <button style="width: 40px;font-size: 12px;padding: 0;margin-left: 10px" onclick="allTrue()">全部+</button>
+                        <button style="width: 40px;font-size: 12px;padding: 0;margin-left: 10px" onclick="allFalse()">全部-</button>
+                    </div>
+                    <div style="width: 100%">
+                        <ul id="treeDemo" class="ztree"></ul>
+                    </div>
+
+                </div>
+            </div>  <!-- /inner-wrapper -->
+        </div>  <!-- /row -->
+    </div>  <!-- /container -->
+
+</div>  <!-- /segment-content -->
+
+
+<div id="segment-footer" class="segment">  <!-- segment-footer -->
+</div>  <!-- /segment-footer -->
+<!-- disqus thread -->
+<!-- disqus -->
+<!-- end disqus -->
+
+<div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+</div>  <!-- /segment-post-footer -->
+
+<!-- JS and analytics only. -->
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<!--<script src="./assets/js/jquery.js"> </script>     &lt;!&ndash; note keep space here, otherwise it will be transformed to empty tag -> fails &ndash;&gt;-->
+<script src="./dist/js/bootstrap.min.js"></script>
+<script src="./assets/js/respond.min.js"></script>
+
+<script src="./assets/js/fhir.js"></script>
+
+<!-- Analytics Below ================================================== -->
+<script src="./assets/js/template-web.js"></script>
+<script src="./assets/js/nav.js"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?351f802705b09ff497ed83d498777ee1";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+    $("#searchBtn").click(function(){
+        var foo = JSON.parse(JSON.stringify(zNodes));
+        if ($('.chose').length == 0) {
+            search(foo)
+        }else {
+            ztree(foo)
+        }
+    })
+    //筛选ztree
+    // $(".radioImg").click(function () {
+    //     //改变图标颜色
+    //     var foo = JSON.parse(JSON.stringify(zNodes));
+    //     if ($(this).hasClass('chose')) {
+    //         $(this).removeClass('chose')
+    //         if ($('.chose').length==0) {
+    //             $.fn.zTree.init($("#treeDemo"), setting, zNodes);
+    //             return
+    //         }
+    //     }else {
+    //         $(this).addClass('chose');
+    //     }
+    //     var iconArr = $('.chose');  //.attr('icon')
+    //     var iconNameArr=[];
+    //     for(var i=0;i<iconArr.length;i++){
+    //         iconNameArr.push(iconArr[i].getAttribute("icon"));
+    //     }
+    //     var treeArr = foo.filter(
+    //         function (item) {
+    //             if (item.children) {
+    //                 var child = item.children.filter(function (childItem) {
+    //                     return iconNameArr.includes(childItem.iconSkin)
+    //                 })
+    //                 item.children = child;
+    //             }
+    //             if (item.children.length > 0 || iconNameArr.includes(item.iconSkin)) {
+    //                 return item
+    //             }
+    //         }
+    //     );
+    //     $.fn.zTree.init($("#treeDemo"), setting, treeArr);
+    // })
+    //筛选
+    $(".label_box label div").click(function () {
+        var foo = JSON.parse(JSON.stringify(zNodes));
+        if ($(this).hasClass('chose')) {
+            $(this).removeClass('chose')
+            $(".chose").prev().attr("checked",false)
+            $(".chose").removeClass("chose")
+            if ($('.chose').length == 0) {
+                search(foo)
+                return
+            }
+        } else {
+            $(".chose").prev().attr("checked",false)
+            $(".chose").removeClass("chose")
+            $(this).addClass('chose');
+        }
+        ztree(foo)
+    })
+    //按钮过滤
+    function ztree(foo) {
+        var iconArr = $('.chose');  //.attr('icon')
+        var iconNameArr = [];
+        for (var i = 0; i < iconArr.length; i++) {
+            iconNameArr.push(iconArr[i].getAttribute("value"));
+        }
+        var num = 0;
+        var treeArr = foo.filter(
+            function (item) {
+                if (item.children) {
+                    var child = item.children.filter(function (childItem) {
+                        if (childItem.children) {
+                            var child1 = childItem.children.filter(function (child1Item) {
+                                if (child1Item.children) {
+                                    var child2 = child1Item.children.filter(function (child2Item) {
+                                        let bol = false;
+                                        for (let i = 0; i < iconNameArr.length; i++) {
+                                            if (child2Item[iconNameArr[i]] != undefined) {
+                                                bol = true;
+                                            } else {
+                                                bol = false;
+                                                break
+                                            }
+                                        }
+                                        if (bol) {
+                                            num++;
+                                            return child2Item
+                                        }
+                                    })
+                                    if (child2.length==0){
+                                        delete child1Item.children
+                                    }else {
+                                        child1Item.children = child2;
+                                        child1Item.open=true;
+                                    }
+                                    let rtn=false;
+                                    for (let i = 0; i < iconNameArr.length; i++) {
+                                        if (child1Item[iconNameArr[i]] != undefined) {
+                                            rtn = true;
+                                        }else {
+                                            rtn = false;
+                                            break
+                                        }
+                                    }
+                                    if (rtn||(child1Item.children?child1Item.children.length>0:false)){
+                                        if (child1Item.children==undefined){
+                                            num++;
+                                        }
+                                        return child1Item
+                                    }
+                                }else {
+                                    let bol = false;
+                                    for (let i = 0; i < iconNameArr.length; i++) {
+                                        if (child1Item[iconNameArr[i]] != undefined) {
+                                            bol = true;
+                                        } else {
+                                            bol = false;
+                                            break
+                                        }
+                                    }
+                                    if (bol) {
+                                        num++;
+                                        return child1Item
+                                    }
+                                }
+                            })
+                            if (child1.length==0){
+                                delete childItem.children
+                            }else {
+                                childItem.open=true;
+                                childItem.children = child1;
+                            }
+                            let rtn=false;
+                            for (let i = 0; i < iconNameArr.length; i++) {
+                                if (childItem[iconNameArr[i]] != undefined) {
+                                    rtn=true
+                                }else {
+                                    rtn = false;
+                                    break
+                                }
+                            }
+                            if (rtn||(childItem.children?childItem.children.length>0:false)){
+                                if (childItem.children==undefined){
+                                    num++;
+                                }
+                                return childItem
+                            }
+                        }else {
+                            let bol = false;
+                            for (let i = 0; i < iconNameArr.length; i++) {
+                                if (childItem[iconNameArr[i]] != undefined) {
+                                    bol = true;
+                                } else {
+                                    bol = false;
+                                    break
+                                }
+                            }
+                            if (bol) {
+                                num++;
+                                return childItem
+                            }
+                        }
+                    })
+                    item.children = child;
+                }
+                let bol = false;
+                for (let i = 0; i < iconNameArr.length; i++) {
+                    if (item[iconNameArr[i]] != undefined) {
+                        bol = true;
+                    } else {
+                        bol = false;
+                        break
+                    }
+                }
+                if (bol) {
+                    num++;
+                }
+                if (item.children.length > 0 || bol) {
+                    item.open = true
+                    return item
+                }
+            }
+        );
+        $('.chose').prev().attr("data-before", num);
+        search(treeArr);
+    }
+    //inpu框过滤
+    function search(foo){
+        var val=$("#search").val();
+        var name=["name","subtitle","thickTitle","fineTitle"];
+        var treeArr=[];
+        if (val) {
+            treeArr = foo.filter(
+                function (item) {
+                    if (item.children) {
+                        var child = item.children.filter(function (childItem) {
+                            if (childItem.children) {
+                                var child1 = childItem.children.filter(function (child1Item) {
+                                    if (child1Item.children) {
+                                        var child2 = child1Item.children.filter(function (child2Item) {
+                                            let bol = false;
+                                            for (let i = 0; i < name.length; i++) {
+                                                if (child2Item[name[i]]?child2Item[name[i]].toLowerCase().indexOf(val.toLowerCase())>-1:false) {
+                                                    bol = true;
+                                                    break;
+                                                }
+                                            }
+                                            if (bol) {
+                                                return child2Item
+                                            }
+                                        })
+                                        if (child2.length==0){
+                                            delete child1Item.children
+                                        }else {
+                                            child1Item.open = true
+                                            child1Item.children = child2;
+                                        }
+                                        let rtn=false;
+                                        for (let i = 0; i < name.length; i++) {
+                                            if (child1Item[name[i]]?child1Item[name[i]].toLowerCase().indexOf(val.toLowerCase())>-1:false) {
+                                                rtn = true;
+                                                break
+                                            }
+                                        }
+                                        if (rtn||(child1Item.children?child1Item.children.length>-1:false)){
+                                            if (child1Item.children==undefined){
+                                            }
+                                            return child1Item
+                                        }
+                                    }else {
+                                        let bol = false;
+                                        for (let i = 0; i < name.length; i++) {
+                                            if (child1Item[name[i]]?child1Item[name[i]].toLowerCase().indexOf(val.toLowerCase())>-1:false) {
+                                                bol = true;
+                                                break
+                                            }
+                                        }
+                                        if (bol) {
+                                            return child1Item
+                                        }
+                                    }
+                                })
+                                if (child1.length==0){
+                                    delete childItem.children
+                                }else {
+                                    childItem.open = true
+                                    childItem.children = child1;
+                                }
+                                let rtn=false;
+                                for (let i = 0; i < name.length; i++) {
+                                    if (childItem[name[i]]?childItem[name[i]].toLowerCase().indexOf(val.toLowerCase())>-1:false) {
+                                        rtn=true;
+                                        break
+                                    }
+                                }
+                                if (rtn||(childItem.children?childItem.children.length>-1:false)){
+                                    return childItem
+                                }
+                            }else {
+                                let bol = false;
+                                for (let i = 0; i < name.length; i++) {
+                                    if (childItem[name[i]]?childItem[name[i]].toLowerCase().indexOf(val.toLowerCase())>-1:false) {
+                                        bol = true;
+                                        break
+                                    }
+                                }
+                                if (bol) {
+                                    return childItem
+                                }
+                            }
+                        })
+                        item.children = child;
+                    }
+                    let bol = false;
+                    for (let i = 0; i < name.length; i++) {
+                        if (item[name[i]]?item[name[i]].toLowerCase().indexOf(val.toLowerCase())>-1:false) {
+                            bol = true;
+                            break;
+                        }
+                    }
+                    if (bol) {
+                    }
+                    if (item.children.length > 0 || bol) {
+                        item.open = true
+                        return item
+                    }
+                }
+            );
+        }else {
+            treeArr=foo;
+        }
+        $.fn.zTree.init($("#treeDemo"), setting, treeArr);
+        if (val){
+            fHl(document.getElementById("treeDemo"), val.toLowerCase());
+        }
+
+    }
+    function fHl(o, flag, rndColor, url){
+        /// <summary>
+        ///     使用 javascript HTML DOM 高亮显示页面特定字词.
+        ///     实例:
+        ///         fHl(document.body, '纸伞|她');
+        ///         这里的body是指高亮body里面的内容。
+        ///         fHl(document.body, '希望|愁怨', false, '/');
+        ///         fHl(document.getElementById('at_main'), '独自|飘过|悠长', true, 'search.asp?keyword=');
+        ///         这里的'at_main'是指高亮id='at_main'的div里面的内容。search.asp?keyword=指给关键字加的链接地址，
+        ///         我这里加了一个参数，在后面要用到。可以是任意的地址。
+        /// </summary>
+        /// <param name="o" type="Object">
+        ///     对象, 要进行高亮显示的对象.
+        /// </param>
+        /// <param name="flag" type="String">
+        ///     字符串, 要进行高亮的词或多个词, 使用 竖杠(|) 分隔多个词 .
+        /// </param>
+        /// <param name="rndColor" type="Boolean">
+        ///     布尔值, 是否随机显示文字背景色与文字颜色, true 表示随机显示.
+        /// </param>
+        /// <param name="url" type="String">
+        ///     URI, 是否对高亮的词添加链接.
+        /// </param>
+        /// <return></return>
+        var bgCor=fgCor='';
+        if(rndColor){
+            bgCor=fRndCor(10, 20);
+            fgCor=fRndCor(230, 255);
+        } else {
+            bgCor='#f6fffc';
+            fgCor='#FF6633';
+        }
+        var re=new RegExp(flag, 'i');
+        for(var i=0; i<o.childNodes.length; i++){
+            var o_=o.childNodes[i];
+            var o_p=o_.parentNode;
+            if(o_.nodeType==1) {
+                fHl(o_, flag, rndColor, url);
+            } else if (o_.nodeType==3) {
+                if(!(o_p.nodeName=='A')){
+                    if(o_.data.search(re)==-1)continue;
+                    var temp=fEleA(o_.data, flag);
+                    o_p.replaceChild(temp, o_);
+                }
+            }
+        }
+        //------------------------------------------------
+        function fEleA(text, flag){
+            var style=' style="background-color:'+bgCor+';color:'+fgCor+';" '
+            var o=document.createElement('span');
+            var str='';
+            var re=new RegExp('('+flag+')', 'gi');
+            if(url){
+                str=text.replace(re, '<a href="'+url+
+                    '$1"'+style+'>$1</a>'); //这里是给关键字加链接，红色的$1是指上面链接地址后的具体参数。
+            } else {
+                str=text.replace(re, '<span '+style+'>$1</span>'); //不加链接时显示
+            }
+            o.innerHTML=str;
+            return o;
+        }
+        //------------------------------------------------
+        function fRndCor(under, over){
+            if(arguments.length==1){
+                var over=under;
+                under=0;
+            }else if(arguments.length==0){
+                var under=0;
+                var over=255;
+            }
+            var r=fRandomBy(under, over).toString(16);
+            r=padNum(r, r, 2);
+            var g=fRandomBy(under, over).toString(16);
+            g=padNum(g, g, 2);
+            var b=fRandomBy(under, over).toString(16);
+            b=padNum(b, b, 2);
+            //defaultStatus=r+' '+g+' '+b
+            return '#'+r+g+b;
+            function fRandomBy(under, over){
+                switch(arguments.length){
+                    case 1: return parseInt(Math.random()*under+1);
+                    case 2: return parseInt(Math.random()*(over-under+1) + under);
+                    default: return 0;
+                }
+            }
+            function padNum(str, num, len){
+                var temp=''
+                for(var i=0; i<len;temp+=num, i++);
+                return temp=(temp+=str).substr(temp.length-len);
+            }
+        }
+    }
+    //全部展开
+    function allTrue(){
+        var treeObj = $.fn.zTree.getZTreeObj("treeDemo");
+        treeObj.expandAll(false);
+    }
+    //全部折叠
+    function allFalse() {
+        var treeObj = $.fn.zTree.getZTreeObj("treeDemo");
+        treeObj.expandAll(true);
+    }
+</script>
+
+
+</body>
+</html>
