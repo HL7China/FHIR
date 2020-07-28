@@ -16,71 +16,62 @@
 
 
 <a name="root"></a>
-<h2>Getting Started with FHIR</h2>
-<table class="colsi"><tr><td id="wg"><a _target="blank" href="[%wg fhir%]">[%wgt fhir%]</a> Work Group</td><td id="fmm"><a href="versions.html#maturity">Maturity Level</a>: N/A</td><td id="ballot"><a href="versions.html#std-process">Standards Status</a>:<!--!ns!--><a href="versions.html#std-process">Informative</a></td></tr></table>
+<h2>开始使用FHIR</h2>
+<table class="colsi"><tr><td id="wg">工作组:<a _target="blank" href="[%wg fhir%]">[%wgt fhir%]</a></td><td id="fmm"><a href="versions.html#maturity">成熟度</a>: N/A</td><td id="ballot"><a href="versions.html#std-process">标准状态</a>:<!--!ns!--><a href="versions.html#std-process">Informative</a></td></tr></table>
 
 <p>
-FHIR is a platform specification that defines a set of capabilities use across the healthcare
-process, in all jurisdictions, and in lots of different contexts. While the basics of the
-FHIR specification are relatively straight-forward (see the Overviews: <a href="overview.html">General</a>,
-<a href="overview-dev.html">Developers</a>, <a href="overview-clinical.html">Clinical</a>, and <a href="overview-arch.html">Architects</a>), it can still be difficult to know
-where to start when implementing a solution based on FHIR.
+FHIR是一个平台规范，它定义了一套贯穿卫生健康流程、可以在不同国家和地区的各种场境下使用的功能。 虽然FHIR规范的基础是相对直观的（详见概述：
+<a href="overview.html">摘要</a>,
+<a href="overview-dev.html"> 开发人员入门</a>, <a href="overview-clinical.html">临床人员入门</a>, 和 <a href="overview-arch.html">架构师入门</a>), 但要着手实施一个基于FHIR的解决方案时，却不知从何处下手。
 </p>
 <p>
-This page provides some guidance to help get new implementers started on their path to successful
-implementation. Beyond reading the overviews (previous paragraph), where should an implementer
-start? Generally, an implementer needs to resolve:
+本页提供了一些指导，以帮助新手开始他们的成功实施之路。 除了阅读概述（上一段中的入门链接），实施者应该从哪里开始？通常，实施者需要解决：
 </p>
 <ul>
- <li>How will information be exchanged? (see <a href="foundation-module.html#uses">Foundation Module</a>)</li>
- <li>How are terminologies being used? (see <a href="terminology-module.html#uses">Terminology Module</a>)</li>
- <li>How will the information be secured? (see <a href="secpriv-module.html#uses">Security and Privacy Module</a>)</li>
- <li>When is information exchanged? (See <a href="workflow-module.html">Workflow Module</a>)</li>
- <li>What information is going to be exchanged?</li>
+ <li>如何交换信息? (请参阅 <a href="foundation-module.html#uses">基础组件</a>)</li>
+ <li>如何使用术语 (请参阅 <a href="terminology-module.html#uses">术语组件</a>)</li>
+ <li>如何保障信息的安全? (请参阅  <a href="secpriv-module.html#uses">安全和隐私组件</a>)</li>
+ <li>何时交换信息? (请参阅 <a href="workflow-module.html">工作流组件</a>)</li>
+ <li>要交换什么信息?</li>
 </ul>
 <p>
-The remaining sections provide guidance on specific areas (Foundation, Implementer Support, Security and Privacy, Conformance,
-Terminology, Linked Data, Administration, Clinical, Diagnostics, Medications, Workflow, Financial and Clinical Reasoning).
+其它组件（实施者支持、安全和隐私、符合性、术语、管理、临床、诊断、药物、工作流、财务和临床推理）提供了特定领域的相关指南。
 </p>
 <p>
-All implementers should be aware of how versioning works in the FHIR specification. See both:
+所有实施者都应该知道在FHIR规范中的版本管理。详见以下两个链接：
 </p>
 <ul>
- <li><a href="versioning.html">Managing Multiple FHIR Versions</a></li>
- <li><a href="versions.html">Specification Version Management Policy </a></li>
+ <li><a href="versioning.html">管理多个FHIR版本</a></li>
+ <li><a href="versions.html">版本管理策略</a></li>
 </ul>
 
 <a name="modules"></a>
-<h3>Modules</h3>
+<h3>组件</h3>
 <p>
-In order to help implementers find their way around the specification and answer these questions,
-it is organized into a set of "modules". Each module represents a different functional area of the
-specification, and contains:
+为了帮助实施者快速入门并回答上述问题，FHIR规范以“组件”的形式组织。每个组件代表FHIR规范中的不同功能领域，并包含：
 </p>
 <ul>
- <li><b>Scope and Index</b>: A description of the content covered by the module, and an index of the important content</li>
- <li><b>Use cases</b>: Guidance for common uses of the module, and how to approach them. This is a key resource for
-   implementers familiarizing themselves with the FHIR specification</li>
- <li><b>Security / Privacy</b>: Information</li>
- <li><b>Roadmap</b>: Where the content covered by the module is in terms of overall progress (see also, for general information: <a href="versions.html">FHIR Timelines</a>)</li>
+ <li><b>范围与索引</b>: 对组件所涵盖内容的描述，以及重要内容的索引</li>
+ <li><b>用例</b>: 组件的常见使用指南，以及如何实现它们。这对于熟悉FHIR规范的实施者来说是一个关键资源。</li>
+ <li><b>安全/隐私</b>: 信息</li>
+ <li><b>Roadmap</b>:  此组件所涵盖的内容涉及总体进度（另请参见通用信息: <a href="versions.html"> FHIR时间表</a>)</li>
 </ul>
 
 <p>
-Broadly, the modules are organized into 3 groups:
+这些组件大体上分为三个组别：
 </p>
 <ul>
- <li>Infrastructure (bottom rung, and bottom row of boxes)</li>
- <li>Content (middle rung, and top row of boxes)</li>
- <li>Reasoning (top rung)</li>
+ <li>基础框架（底级横框和底级方框，即第1级和第2级）</li>
+ <li>内容 （中间横框和顶级方框，即第3级和第4级）</li>
+ <li>推理 （顶级横框）</li>
 </ul>
 
 [%file modules-fragment%]
 
 <p>
-Dependencies between the modules are mainly downwards, with some horizontal dependencies.
-Implementers should choose the content modules to engage with based on their
-requirements, and should only engage with the reasoning module if they need to do
-clinical decision support, and/or Quality Measures.
+组件之间的依赖关系主要是自上而下的，同时具有一些水平依赖性。实施者应根据需求来选择要使用的组件， 仅当涉及临床决策支持或质量评估时才应使用推理组件。
+
+各组件中的用例能很好的帮助理解，除此之外，以下文档页面也很有用：
 </p>
 
 <p>
@@ -88,13 +79,12 @@ In addition to the use case based assistance in the modules, these additional do
 may be useful:
 </p>
 <ul>
- <li><a href="usecases.html">Common Use Cases</a>: Personal Health Record, Document Sharing (XDS) and Decision Support</li>
- <li><a href="resourceguide.html">Resource Guide</a>: Further information about the resources and the relationship between them</li>
+ <li><a href="usecases.html">常见用例</a>: 个人健康记录、文档共享（XDS）和决策支持</li>
+ <li><a href="resourceguide.html">资源指南</a>: 有关资源及其关系的更多信息</li>
 </ul>
 
 <p>
-Finally, one important place to look is the <a href="http://www.fhir.org/guides/registry">registry of implementation guides</a>, to see
-whether similar (or identical) requirements have been met.
+最后，很有必要去<a href="http://www.fhir.org/guides/registry">实施指南(IG)注册处</a>, 查一查是否已存在了相似（或相同）的需求。
 </p>
 
 </div>

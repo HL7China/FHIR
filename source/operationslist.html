@@ -11,123 +11,118 @@
 <div class="col-12">
 
 <a name="base"></a>
-<h2>Defined RESTful API Operations</h2>
+<h2>已定义的 RESTful API 操作（功能）</h2>
 
-<table class="colsi"><tbody><tr><td id="wg"><a href="http://www.hl7.org/Special/committees/fiwg/index.cfm" _target="blank">FHIR Infrastructure </a> Work Group</td><td id="fmm"><a href="versions.html#maturity">Maturity Level</a>: N/A</td><td id="ballot"><a href="versions.html#std-process">Standards Status</a>:  <!-- !ns! --><a href="versions.html#std-process">Informative</a></td></tr></tbody></table>
+<table class="colsi"><tbody><tr><td id="wg">工作组：<a href="http://www.hl7.org/Special/committees/fiwg/index.cfm" _target="blank">FHIR Infrastructure </a></td><td id="fmm"><a href="versions.html#maturity">成熟度</a>: N/A</td><td id="ballot"><a href="versions.html#std-process">标准状态</a>:  <!-- !ns! --><a href="versions.html#std-process">Informative</a></td></tr></tbody></table>
 
 <p>
-The <a href="http.html">RESTful API</a> defines a set of common interactions (read, update, search, etc.)
-performed on a repository of typed resources. For further information concerning how operations are 
-defined and invoked, see <a href="operations.html">Extended Operations on the RESTful API</a>.
+<a href="http.html">RESTful API</a>定义了一组通用的交互动作（读取，更新，搜索等）可以操作储存库中已知类型的资源。 有关如何定义和调用操作的更多信息，请参阅
+<a href="operations.html">RESTful API 的扩展操作</a>。
 </p>
 <p>
-This is a full list of the operations defined by this specification:
+此规范定义的操作的完整列表如下：
 </p>
 <%operationslist%>
 <p>
-Notes:
+注意：
 </p>
 <ul>
- <li>The special operations on the <code>meta</code> element also operate on previous versions of a resource (/_history/).  They are the only operations that can manipulate versions other than the "current" version.</li>
- <li>Implementation Guides can define additional operations</li>
+ <li>对 <code>meta</code>元数据的特殊操作也支持资源的历史版本（/_history/）。只有这此操作可以对“当前”版本以外的其它版本进行操作。</li>
+ <li>实施指南可以定义其他操作</li>
 </ul>
 
-<h3>Services Defined by the FHIR specification</h3>
+<h3>FHIR规范定义的服务</h3>
 
 <p>
-This specification defines a set of services, which are business level aggregations of 
-<a href="resourcelist.html">Resources</a> and Operations that provide a defined package of 
-functionality that correspond to an identified business need.
+此规范定义了一组服务，这些服务是业务级
+<a href="resourcelist.html">资源</a> 和操作的集合，它们提供了一个已定义的、与已知业务需求相对应的功能包。
 </p>
 <p>
-Note that in addition to the services defined in this specification, many 
-<a href="http://fhir.org/implementation_guides">implementation guides</a>
-define business level services.
+注意，除了本规范中定义的服务之外，许多
+<a href="http://fhir.org/implementation_guides">实施指南 </a>
+还定义了业务级服务。
 </p>
 <p>
-This table lists the services currently defined:
+下表列出了当前已定义的服务：
 </p>
 
 <table class="grid">
  <tr>
-  <td><b>Name</b></td>
-  <td><b>Description</b></td>
-  <td><b>Links</b></td>
+  <td><b>名称</b></td>
+  <td><b>描述</b></td>
+  <td><b>相关链接</b></td>
  </tr>  
 
  <tr>
-  <td><a href="terminology-service.html">Terminology Service</a></td>
-  <td><p>A service that lets healthcare applications make use of codes, code systems, and value sets without having to become
-experts in the fine details of the code system, value set and concept map resources, and the underlying 
-code systems and terminological principles. The service provides the following functionality: </p>
+  <td><a href="terminology-service.html">术语服务(Terminology Service)</a></td>
+  <td><p>一种允许你不必成为精通编码系统、值集和概念映射资源以及基础编码系统和术语原则的详细信息方面的专家。 就可以让你的卫生健康应用程序使用编码、编码系统和值集的服务。此服务提供以下功能： </p>
 <ul>
- <li>Defining and managing code systems, value sets, and concept maps</li>
- <li>Code lookup &amp; Validation</li>
- <li>Value Set Expansion (including for UI data entry support)</li>
- <li>Value Set Validation</li>
- <li>Translations between code systems</li>
- <li>Subsumption testing and other logical analyses</li>
- <li>Maintaining a closure table</li>
+ <li>定义和管理编码系统、值集和概念映射</li>
+ <li>编码查找和验证</li>
+ <li>值集展开（包括UI数据输入支持）</li>
+ <li>值集验证</li>
+ <li>编码系统之间转换</li>
+ <li>包含性测试和其他逻辑分析</li>
+ <li>维护层级（树型）数据表</li>
 </ul>
 </td>
-  <td><a href="capabilitystatement-terminology-server.html">Capability statement</a><br/><a href="terminology-module.html">module</a></td>
+  <td><a href="capabilitystatement-terminology-server.html">术语服务器能力声明</a><br/><a href="terminology-module.html">术语组件</a></td>
  </tr>  
 
  <tr>
-  <td>Conformance Service</td>
-  <td><p>A service that provides the underlying services needed to test whether resources conform to the rules 
-  defined by the FHIR specification and applicable implementation guides, and to help author implementation guides. The service provides the following functionality: </p>
+  <td>符合性服务(Conformance Service)</td>
+  <td><p>一种基础服务，用于测试资源是否符合FHIR规范和适用的实施指南定义的规则。它还有助于实施指南的编写。 该服务提供以下功能： 	</p>
 <ul>
- <li>Defining and managing structure definitions, data elements, Capability statements, search parameters, and operation &amp; compartment definitions</li>
- <li>Resource Validation</li>
- <li>Comparing and subsetting Capability statements</li>
+ <li>定义和管理结构定义、数据元素、能力声明、搜索参数以及操作和逻辑区块定义</li>
+ <li>资源验证</li>
+ <li>对比能力声明并获取其子集</li>
 </ul>
 </td>
-  <td>To be developed</td>
+  <td>正在开发</td>
  </tr>  
  
  <tr>
-   <td>Knowledge Repository</td>
-   <td><p>A service that provides basic retrieval and maintenance functionality for clinical knowledge artifacts. The service provides the following functionality:</p>
+   <td>知识库</td>
+   <td><p>一种为临床知识相关产物提供基本检索和维护功能的服务。该服务提供以下功能：</p>
    <ul>
-   <li>Defining and managing plan and activity definitions (e.g. order sets, protocols, decision support rules, documentation templates, etc.), libraries, and measures</li>
-   <li>Search and retrieval of knowledge artifacts</li>
-   <li>Data requirements analysis of knowledge artifacts</li>
+   <li>定义和管理计划、活动定义（例如医嘱组集、规程、决策支持规则、文档模板等）、知识库和评估。</li>
+   <li>搜索并获取知识相关产物</li>
+   <li>对知识产物的数据需求分析</li>
    </ul>
    </td>
-   <td><a href="capabilitystatement-knowledge-repository.html">Capability statement</a><br/><a href="clinicalreasoning-module.html">module</a></td>
+   <td><a href="capabilitystatement-knowledge-repository.html">知识库能力声明</a><br/><a href="clinicalreasoning-module.html">临床推理组件</a></td>
  </tr> 
  
  <tr>
-   <td>Measure Processor</td>
-   <td><p>A service that provides measure evaluation functionality. The service provides the following functionality:</p>
+   <td>评估处理</td>
+   <td><p>提供与评估相关的服务。该服务提供以下功能：</p>
      <ul>
-       <li>Searching and retrieval of measure definitions</li>
-       <li>Evaluation of measures for patients and populations</li>
-       <li>Data requirements analysis of measure definitions</li>
+       <li>搜索并获取评估定义</li>
+       <li>对患者和人群的评估</li>
+       <li>对评估定义的数据需求分析</li>
      </ul>
    </td>
-   <td><a href="capabilitystatement-measure-processor.html">Capability statement</a><br/><a href="clinicalreasoning-module.html">module</a></td>
+   <td><a href="capabilitystatement-measure-processor.html">评估服务能力声明 </a><br/><a href="clinicalreasoning-module.html">临床推理组件</a></td>
  </tr>
  
 </table>
 
 <p>
-Possible candidate Business Services for future versions:
+在未来版本可能的提供的候选业务服务
 </p>
 <ul>
- <li>Conversion Service (using mapping language, and also iso-semantic transforms in a resource)</li>
- <li>Questionnaire related functionality (though see SDC)</li>
- <li>Patient Registration &amp; Reconciliation service (per IXS)</li>
- <li>Medication Management service (home specific variant?)</li>
- <li>Clinical Data Repository</li>
- <li>Clinical Task Manager</li>
- <li>Communications Manager</li>
+ <li>转换服务（使用映射语言，以及资源中的ISO语义转换(iso-semantic transforms)</li>
+ <li>问卷相关功能（参见SDC)</li>
+ <li>患者注册与协调服务(每个IXS)</li>
+ <li>药物管理服务（为家庭提供特定变体？）</li>
+ <li>临床数据仓库(CDR,Clinical Data Repository)</li>
+ <li>临床任务管理(CTM,Clinical Task Manager)</li>
+ <li>沟通管理</li>
  <li>...?</li>
 </ul>
 
 <p>
-Note that there is already past &amp; current work on some of these in HL7 (though not necessarily FHIR specific).
+请注意，在过去和现在，HL7中已经做了其的某些工作（尽管不一定是针对FHIR）
 </p>
 
 </div>
