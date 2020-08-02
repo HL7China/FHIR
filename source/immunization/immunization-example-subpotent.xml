@@ -14,11 +14,6 @@
 		</coding>
 		<text value="Hepatitis B"/>
 	</vaccineCode>
-	<manufacturer>
-		<reference value="Organization/hl7"/>
-	</manufacturer>
-	<lotNumber value="AAJN11K"/>
-	<expirationDate value="2015-02-28"/>
 	<patient>
 		<reference value="Patient/example"/>
 	</patient>
@@ -30,6 +25,11 @@
 	<location>
 		<reference value="Location/1"/>
 	</location>
+	<manufacturer>
+		<reference value="Organization/hl7"/>
+	</manufacturer>
+	<lotNumber value="AAJN11K"/>
+	<expirationDate value="2015-02-28"/>
 	<site>
 		<coding>
 			<system value="http://terminology.hl7.org/CodeSystem/v3-ActSite"/>
